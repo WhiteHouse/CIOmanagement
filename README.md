@@ -1,16 +1,10 @@
 ## FITARA Management DRAFT site
 
-**[Read the policy.](https://https.cio.gov)**
+The Federal Information Technology Acquisition Reform Act ([FITARA)](https://www.congress.gov/113/plaws/publ291/PLAW-113publ291.pdf#page=148]), passed by Congress in December 2014, is a historic law that represents the first major overhaul of Federal information Technology (IT) in almost 20 years.  Since FITARA’s passing, OMB published guidance to agencies to ensure that this law is applied consistently governmentwide in a way that is both workable and effective. This guidance is now available as OMB Memorandum M-15-14: Management and Oversight of Federal Information Technology.
 
-Please [open an issue](https://github.com/gsa/https/issues/new) to leave feedback or suggestions. Pull requests are welcome to pages _other_ than the homepage, which shows the final policy and is not subject to change through GitHub.
+OMB used https://management.cio.gov, to collect public feedback on proposed guidance in April 2015. Today this site is still available as a place to continue the discussion of FITARA implementation although the implementation guidance has been finalized. The other pages on [management.cio.gov](https://management.cio.gov) are open for contribution at any time, and are intended to be resources for agencies implementing the FITARA policy.
 
-### Thank You For Your Feedback
-
-This policy was open for public comment before its finalization. It received [numerous comments](https://github.com/GSA/https/issues?utf8=%E2%9C%93&q=label%3A%22Public+Comment%22+) whose thoughtfulness and feedback improved the **[final policy](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2015/m-15-13.pdf)**.
-
-You can see what changed between the proposal and the final policy in [pull request #108](https://github.com/GSA/https/pull/108).
-
-The homepage of this site is the final policy. The other pages on [management.cio.gov](https://management.cio.gov) are open for contribution at any time, and are intended to be resources for agencies implementing the FITARA policy.
+This repo houses the code for updated guidance and resources. 
 
 ### Developing on the site locally
 
