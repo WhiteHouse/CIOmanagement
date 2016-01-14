@@ -23,7 +23,7 @@ exclude:
 # Site metadata
 name: FITARA Implementation
 description: "Resources, best practices, and case studies for CIO management in the federal government."
-baseurl: http://gsa.github.io/CIOmanagement  
+baseurl: http://open.gsa.gov/CIOmanagement  
 
 
 # GitHub information
