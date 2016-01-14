@@ -23,12 +23,12 @@ exclude:
 # Site metadata
 name: FITARA Implementation
 description: "Resources, best practices, and case studies for CIO management in the federal government."
-baseurl: http://ombegov.github.io/management  
+baseurl: http://gsa.github.io/CIOmanagement  
 
 
 # GitHub information
-org_name: ombegov
-repo_name: management
+org_name: GSA
+repo_name: CIOmanagement
 branch: gh-pages
 
 
