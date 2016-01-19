@@ -8,10 +8,17 @@ description: "Add text"
 ### Sign up for the FITARA Listserv
 Anyone with a .gov or .mil email address can join by emailing [listserv@listserv.gsa.gov](mailto:listserv@listserv.gsa.gov), the message should have no subject and the body should say "subscribe FITARA".
 
-### Attend Bi-Weekly Implementation Support Meetings
-Biweekly Implementation support meetings are held every other Wednesday at GSA. To receive the most recent meeting information, join the listserv.
+### Attend Monthly FITARA Implementation Support Meetings
+Monthly (previosly biweekly) Implementation support meetings are held every fourth Wednesday at GSA. To receive the most recent meeting information, join the listserv.
 
-### Bi-Weekly FITARA Meeting Agendas
+### FITARA Meeting Agendas
+
+**January 13, 2016**
+
+* Welcome and Roll-Call
+*	Updates from OMB
+* IT Category Management Updates - New Esri agreement, draft software licensing memo. 
+*	Q&A and open discussion 
 
 **December 2, 2015**
 
