@@ -9,7 +9,7 @@ description: "Add text"
 Anyone with a .gov or .mil email address can join by emailing [listserv@listserv.gsa.gov](mailto:listserv@listserv.gsa.gov), the message should have no subject and the body should say "subscribe FITARA".
 
 ### Attend Monthly FITARA Implementation Support Meetings
-Monthly (previosly biweekly) Implementation support meetings are held every fourth Wednesday at GSA. To receive the most recent meeting information, join the listserv.
+Monthly (previously biweekly) Implementation support meetings are held every fourth Wednesday at GSA. To receive the most recent meeting information, join the listserv.
 
 ### FITARA Meeting Agendas
 
