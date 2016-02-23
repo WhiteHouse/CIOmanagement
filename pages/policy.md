@@ -16,6 +16,8 @@ description: "Add text"
 
 * [Management.cio.gov Schema - Bureau IT leadership and governance board schemas](/schema) 
 
+* [Using the Federal Information Technology Acquisition Reform Act (FITARA) as a Lever for Change](https://github.com/GSA/CIOmanagement/raw/master/pages/Using.FITARA.as.a.Lever.for.Change.GSA.OGP.Report.pdf) - Report prepared by the General Services Administration Office of Government-wide Policy, Office of Information, Integrity & Access February 2016.
+
 #### Example Documents & Tools
 * [Common Baseline Template](https://github.com/ombegov/management/blob/gh-pages/pages/Appendix%20C%20-%20Self%20Assessment%20Template.docx?raw=true)
 
