@@ -16,12 +16,16 @@ description: "Add text"
 
 * [Management.cio.gov Schema - Bureau IT leadership and governance board schemas](/schema) 
 
-* [Using the Federal Information Technology Acquisition Reform Act (FITARA) as a Lever for Change](https://github.com/GSA/CIOmanagement/raw/master/pages/Using.FITARA.as.a.Lever.for.Change.GSA.OGP.Report.pdf) - Report prepared by the General Services Administration Office of Government-wide Policy, Office of Information, Integrity & Access February 2016.
+#### Related Policies
+
+* [M-16-02: Category Management Policy 15-1: Improving the Acquisition and Management of Common Information Technology: Laptops and Desktops](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2016/m-16-02.pdf)
 
 #### Example Documents & Tools
 * [Common Baseline Template](https://github.com/ombegov/management/blob/gh-pages/pages/Appendix%20C%20-%20Self%20Assessment%20Template.docx?raw=true)
 
 * [OMB evaluation criteria for agency self-assessments and implementation plans](https://github.com/ombegov/management/blob/gh-pages/pages/FITARA_Agency_Submission_Scoresheet.docx?raw=true) 
+
+* [Using the Federal Information Technology Acquisition Reform Act (FITARA) as a Lever for Change](https://github.com/GSA/CIOmanagement/raw/master/pages/Using.FITARA.as.a.Lever.for.Change.GSA.OGP.Report.pdf) - Report prepared by the General Services Administration Office of Government-wide Policy, Office of Information, Integrity & Access February 2016.
 
 * [ACT-IAC FITARA Management Maturity Model](https://actiac.org/groups/document/fitara-it-management-maturity-model)
 
