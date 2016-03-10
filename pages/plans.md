@@ -27,7 +27,7 @@ description: "Agency Implementation Plans"
 * National Aeronautics and Space Administration	 	 	 	 	 	 	 
 * [National Science Foundation](http://www.nsf.gov/digitalstrategy/FITARAimplementationplan.pdf)	 	 	 	 	 	 	 
 * Nuclear Regulatory Commission	 	 	 	 	 	 	 
-* Office of Personnel Management	 	 	 	 	 	 	 
+* [Office of Personnel Management](https://www.opm.gov/about-us/open-government/digital-government-strategy/<#url=FITARA)	 	 	 	 	 	 	
 * [Small Business Administration](https://www.sba.gov/about-sba/sba-performance/open-government/digital-sba/digital-strategy/sba-fitara-implementation-plan)	 	 	 	 	 	 	 
 * Social Security Administration	 	 	 	 	 	 	 
 * [U.S. Agency for International Development](https://usaid.gov/digitalstrategy/fitara-implementation-plan)
