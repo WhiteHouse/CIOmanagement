@@ -13,6 +13,20 @@ Monthly (previously biweekly) Implementation support meetings are held every fou
 
 ### FITARA Meeting Agendas
 
+**March 23, 2016**
+
+* Welcome and Roll-Call
+*	Updates from OMB - review of April 30th deadline and requirements
+* Draft OMB Agile Governance Overview 
+*	Q&A and open discussion 
+
+**February 24, 2016**
+
+* Welcome and Roll-Call
+*	Updates from OMB
+* April Submission Requirements Overview - OMB
+*	Q&A and open discussion 
+
 **January 13, 2016**
 
 * Welcome and Roll-Call
