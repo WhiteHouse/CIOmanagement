@@ -20,5 +20,5 @@ Please use this space to discuss the policy or to ask questions related to polic
 
 ### Provide Feedback 
 	
-We are continually looking for ways to assist agencies in implementation of FITARA. If you have feedback on the overall site, please comment [here](https://github.com/whitehouse/fitara/issues). 
+We are continually looking for ways to assist agencies in implementation of FITARA. If you have feedback on the overall site, please comment [here](https://github.com/{{ site.org_name }}/{{ site.repo_name }}/issues"). 
 
