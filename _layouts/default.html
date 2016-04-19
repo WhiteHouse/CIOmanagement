@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="google-site-verification" content="BLANK" />
-
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -10,8 +8,9 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize.css">
   <link href="{{ site.baseurl }}/assets/css/google-fonts.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css?{{ site.time | date: "%Y%m%j%H%M%S" }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/header.css?{{ site.time | date: "%Y%m%j%H%M%S" }}">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">
-
+  <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
   <!--[if lt IE 9]>
     <script src="{{ site.baseurl }}/assets/js/html5.js"></script>
@@ -42,15 +41,21 @@
 <body>
 
 <div class="container">
-  <header role="banner">
-    <h1>
-      <a href="/">{{ site.name }}</a>
-    </h1>
-  </header>
+  <div>
+    <header role="banner">
+       <div class="header_menu">
+         <a href="https://github.com/{{ site.org_name }}/{{ site.repo_name }}/issues/" style="color: white;" class="button">Discuss</a> |
+         <a href="https://github.com/{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/{{ page.path }}" class="button" style="color: white;">Edit</a> |
+       </div>
+      <h1>
+        <a href="/">{{ site.name }}</a>
+      </h1>
+    </header>
+  </div>
 
   <div class="wrap content">
-
     {% include sidebar.html %}
+
 
     <article id="main" class="main-content" role="main">
       {{ content }}
