@@ -2,7 +2,7 @@
 layout: page
 title: FAQ
 permalink: /faq/
-description: "Add text"
+description: "FAQs on FITARA implementation"
 ---
 
 
@@ -37,6 +37,24 @@ CIOs, like other senior management officials, work within the organizational str
 Other legislation, primarily the Clinger-Cohen Act of 1996 and the E-Government Act of 2002, require the Director of OMB to issue management guidance for information technology and electronic government activities across the government. Moreover, while the FITARA law contains some specific requirements, it also contains more general requirements that require interpretation for successful FITARA implementation.
 
 ###Submission of Deliverables
+
+**M-15-14 directs agencies to update their self-assessments. What are the expectations for this deadline?**
+
+Per M-15-14, Agencies are required to conduct annual self-assessment reviews and updates.  The first update must be completed by April 30, 2016.  To fulfill this requirement, OMB has developed two templates for agency updates rather than requiring updates to the implementation plans.  OMB has pre-populated the below tables with (1) your Agency’s approved self-assessment scores, and (2) the actions/milestones (and corresponding due dates, if provided) that are listed in your Agency Implementation Plans, Self-Assessment table or a separate source that agencies may be using to track progress. Agencies are required to complete both templates and submit them to OMB by April 30th. 
+
+Guidance can be found [here](https://github.com/GSA/CIOmanagement/blob/master/assets/docs/April%20FITARA%20Update%20Guidance%20and%20Template.docx?raw=true). Pre-filled templates were emailed to agency Deputy Secretaries.  
+
+**FITARA requires that "the Chief Information Officer of each covered agency, in conjunction with the Chief Operating Officer or Deputy Secretary (or equivalent) of the covered agency and the Administrator of the Office of Electronic Government, shall conduct an annual review of the information technology portfolio of the covered agency." Has OMB issued instructions for this requirement?**
+
+OMB recently issued istructiosn to agenices to conduct an annula revoew of their PortfolioStat reviews. To fulfill this, OMB asked each Deputy Secretary to certify that they have reviewed their agency's IT portfolio with their CIO and that the status of their current PortfolioStat Action Items are correct as reported in the OMB E-Gov Integrated Data Collection.  In Apirl, each agency is required to submit a statement from the Deputy Secretary certifying the review and status of your agency’s PortfolioStat action items.
+
+**According to the template provided to each agency, the Self-Assessment Update is due to the OFCIO Desk Office.  Delivery of the Implementation Plan Status simply requires the .json file.  However, the e-mail implies that all materials should be sent to the OFCIO.  Please confirm that all 3 items, the FITARA Self-Assessment Update, the FITARA Implementation Plan Update (in document format), and the certification from the Deputy Secretary  should be sent to one recipient, with the addition of posting the .json file.**
+
+a. The 3 deliverables are: 
+  i. Self-assessment update -Complete the pre-filled template and email it to your desk officer.
+  ii. FITARA milestones -Agencies should use the example JSON file and schema atmanagement.cio.gov/schemato generate a FITARAmilestones.jsondescribing these milestones and post this toagency.gov/digitalstrategy. Use the pre-filled template as a starting point.
+  iii. Annual review of your IT Portfolio -a statement from the Deputy Secretary certifying the review and status of your agency's PortfolioStat action items.
+b. For these 3 deliverables, #1 and #3 should be emailed to your OMB desk officer (cc ofcio@omb.eop.gov) and #2 should just be posted online. However, you may want to do the following: email your desk officer with the two attachments (self-assessment and certification) and also include the direct link to the JSON file you posted in the email body.  
 
 **For those agencies that are not structured simply, how should CIOs or those with CIO responsibilities who are managed by a different agency be listed in order to help build the Bureau IT Leadership Directory? For example, an agency may have facility CIOs who are managed by a different agency within the organization. Should we list a direct chain of command?**
 
