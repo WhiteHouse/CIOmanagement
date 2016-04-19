@@ -20,15 +20,15 @@ exclude:
 - LICENSE.md
 
 # Site metadata
-name: "Source Code Policy"
-description: "Achieving Efficiency, Transparency, and Innovation through Reusable and Open Source Software"
-baseurl: https://sourcecode.cio.gov
+name: "Management.cio.gov"
+description: "Guidance, Resources, and Artifacts to assist agencies in implementing FITARA and other related policies"
+baseurl: http://gsa.github.io/CIOmanagement
 # Uncomment the following line for localhost development at http://127.0.0.1:4000/software/
 # baseurl: /software
 
 # GitHub information
-org_name: whitehouse
-repo_name: source-code-policy
+org_name: GSA
+repo_name: CIOmanagement
 branch: gh-pages
 
 # Navigation
@@ -36,24 +36,18 @@ branch: gh-pages
 navigation:
 - text: Home
   url: /
-- text: Introduction
-  url: /introduction/
-- text: Objectives
-  url: /Objectives/
-- text: Scope and Applicability
-  url: /Scope/
-- text: Software Procurement Considerations
-  url: /Procurement/
-- text: Government-Wide Code Reuse
-  url: /Reuse/
-- text: Federally Funded Custom Code as OSS
-  url: /OSS/
-- text: Implementation
-  url: /Implementation/
-- text: Appendix A - Definitions
-  url: /Appendixa/
-- text: Appendix B - Procurement Analysis
-  url: /Appendixb/
+- text: Implementation Guidance
+  url: /implementation/
+- text: Policy Resources
+  url: /policy/
+- text: FAQ
+  url: /faq/
+- text: Schemas
+  url: /schema/
+- text: Community Links
+  url: /community/
+- text: Agency Plans
+  url: /plans/
 
 # sass
 sass:
