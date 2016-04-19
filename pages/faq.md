@@ -54,7 +54,7 @@ a. The 3 deliverables are:
 
   i. Self-assessment update -Complete the pre-filled template and email it to your desk officer.
   
-  ii. FITARA milestones -Agencies should use the example JSON file and schema atmanagement.cio.gov/schema to generate a FITARAmilestones.json describing these milestones and post this toagency.gov/digitalstrategy. Use the pre-filled template as a starting point.
+  ii. FITARA milestones -Agencies should use the example JSON file and schema at management.cio.gov/schema to generate a FITARAmilestones.json describing these milestones and post this to agency.gov/digitalstrategy. Use the pre-filled template as a starting point.
   
   iii. Annual review of your IT Portfolio -a statement from the Deputy Secretary certifying the review and status of your agency's PortfolioStat action items.
   
@@ -85,7 +85,7 @@ Yes, as it will strengthen the plan.
 
 **Is there a template available for the CIO Assignment Plan? If not, what are the guidelines/format requirements for the submission?**
 
-The only template we have is for the [Self-Assessment](https://management.cio.gov/#attachment-c-template-for-agency-common-baseline-self-assessment-and-plan).
+The only template we have is for the [Self-Assessment](/#attachment-c-template-for-agency-common-baseline-self-assessment-and-plan).
 
 In addition to this template or another approved by OMB, please provide an implementation plan and supporting documents, not to exceed 25 pages. There is no suggested format for the plan beyond the template found in Attachment C.
 
@@ -125,7 +125,7 @@ In addition, [M-15-14](https://www.whitehouse.gov/sites/default/files/omb/memora
 
 **Does OMB view Attachment I as a comprehensive list of action items to implement the requirements identified in Attachment H? Or should does Attachment I outline hard OMB deliverables to date and agencies should use discretion in determining internal deadlines to meet outstanding requirements?"**
 
-[Attachment I](https://management.cio.gov/#attachment-i-summary-of-agency-deadlines-and-requirements) outlines OMB deliverables and agencies are free to set additional internal deadlines to help them meet the OMB requirements and deliverables.
+[Attachment I](/#attachment-i-summary-of-agency-deadlines-and-requirements) outlines OMB deliverables and agencies are free to set additional internal deadlines to help them meet the OMB requirements and deliverables.
 
 **Do small agencies such as USACE and NARA need to report to the FITARA questions on the Integrated Data Collection (IDC)?**
 
