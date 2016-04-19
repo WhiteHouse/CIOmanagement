@@ -35,15 +35,14 @@ Post a "fitaramilestones.json" file to "agency.gov"/digitalstrategy with the fol
 
 First, each milestones JSON document must include a "milestoneDocument" section providing the overall date of last update to the milestones items.
 
-{: .table .table-striped}
 |Field Name| Data Type| Required? | Notes|                                  
 | -------- | -------- | --------- | ---- |
 | **updatedDate** | String (yyyy-mm-dd) | Yes | |           
 
 Then, create an entry for each of your agency's FITARA milestones, providing the following information for each:
 
-{: .table .table-striped}
-|Field Name                         | Data Type                                           | Required? | Notes
+
+|Field Name                        | Data Type                                           | Required? | Notes
 --------------                     | --------------                                      | ----------| --------------
 **milestoneID**                    | Int (3)                                             | Yes       |
 **milestoneDesc**                  | String (500)                                         | Yes       |
@@ -90,8 +89,8 @@ Each agency is expected to post a JSON file for their Bureau IT Leadership Direc
 
 Each dataset should include one record for each agency employee with the title of “chief information officer” or who performs the duties and responsibilities of a CIO but does not necessarily have the title of “CIO.”
 
-{: .table .table-striped}
-Field Name                            | Data Type                       | Required? | Notes
+
+| Field Name                          | Data Type                       | Required? | Notes |
 --------------                        | --------------                  | ----------| --------------
 **bureauCode**                        | Int (2)                         | Yes       |
 **firstName**                         | String (50)                     | Yes       |
@@ -142,8 +141,8 @@ Each agency is expected to post a JSON file for their CIO Governance Board Membe
 
 Include all governance boards the CIO is a member of. Agencies shall keep this list up to date at least annually beginning in April 2016.
 
-{: .table .table-striped}
-Field Name                            | Data Type                       | Required? | Notes
+
+| Field Name                          | Data Type                       | Required? | Notes |
 --------------                        | --------------                  | ----------| --------------
 **governanceBoardName**               | String (100)                    | Yes       | Name of governnance board
 **programCodeFPI**                    | String (7)                      | No        | Code of Program that board is related to (Federal Program Inventory), if available
@@ -188,8 +187,8 @@ Before the close of the IDC quarter, identifying the JSON dataset as “[Agency]
 
 
 
-{: .table .table-striped}
-Field Name                          | Data Type                                                                 | Required? | Notes
+
+| Field Name                        | Data Type                                                                 | Required? | Notes |
 --------------                      | --------------                                                            | ----------| --------------
 **strategyID**                      | Int (3)                                                                   | Yes       | The unique identifier for the strategy 
 **strategyTitle**                   | String (100)                                                              | Yes       | The title of the strategy  
