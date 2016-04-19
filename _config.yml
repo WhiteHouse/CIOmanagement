@@ -1,9 +1,8 @@
-# markdown
+# markdown 
 markdown: redcarpet
 redcarpet:
-  extensions:
-  - smart
-  - with_toc_data
+  extensions: ["superscript","tables","with_toc_data","strikethrough","smart"]
+highlighter: pygments
 
 exclude:
 - ".ruby-version"
@@ -21,29 +20,41 @@ exclude:
 - LICENSE.md
 
 # Site metadata
-name: FITARA Implementation
-description: "Resources, best practices, and case studies for CIO management in the federal government."
-baseurl: http://open.gsa.gov/CIOmanagement  
-
+name: "Source Code Policy"
+description: "Achieving Efficiency, Transparency, and Innovation through Reusable and Open Source Software"
+baseurl: https://sourcecode.cio.gov
+# Uncomment the following line for localhost development at http://127.0.0.1:4000/software/
+# baseurl: /software
 
 # GitHub information
-org_name: GSA
-repo_name: CIOmanagement
+org_name: whitehouse
+repo_name: source-code-policy
 branch: gh-pages
-
 
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
 - text: Home
-  url: /management/
-- text: Implementation Guidance
-  url: /management/implementation/
-- text: Policy Resources
-  url: /management/policy/
-- text: Agency Dashboard
-  url: /management/dashboard/
-- text: FAQ
-  url: /management/faq/
-- text: Join the Community
-  url: /management/community/
+  url: /
+- text: Introduction
+  url: /introduction/
+- text: Objectives
+  url: /Objectives/
+- text: Scope and Applicability
+  url: /Scope/
+- text: Software Procurement Considerations
+  url: /Procurement/
+- text: Government-Wide Code Reuse
+  url: /Reuse/
+- text: Federally Funded Custom Code as OSS
+  url: /OSS/
+- text: Implementation
+  url: /Implementation/
+- text: Appendix A - Definitions
+  url: /Appendixa/
+- text: Appendix B - Procurement Analysis
+  url: /Appendixb/
+
+# sass
+sass:
+  sass_dir: _sass
