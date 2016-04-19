@@ -36,14 +36,14 @@ Post a "fitaramilestones.json" file to "agency.gov"/digitalstrategy with the fol
 First, each milestones JSON document must include a "milestoneDocument" section providing the overall date of last update to the milestones items.
 
 {: .table .table-striped}
-Field Name                         | Data Type                                           | Required? | Notes
---------------                     | --------------                                      | ----------| --------------
-**updatedDate**                    | String (yyyy-mm-dd)                                 | Yes       |           
+|Field Name| Data Type| Required? | Notes|                                  
+| -------- | -------- | --------- | ---- |
+| **updatedDate** | String (yyyy-mm-dd) | Yes | |           
 
 Then, create an entry for each of your agency's FITARA milestones, providing the following information for each:
 
 {: .table .table-striped}
-Field Name                         | Data Type                                           | Required? | Notes
+|Field Name                         | Data Type                                           | Required? | Notes
 --------------                     | --------------                                      | ----------| --------------
 **milestoneID**                    | Int (3)                                             | Yes       |
 **milestoneDesc**                  | String (500)                                         | Yes       |
