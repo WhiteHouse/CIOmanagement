@@ -1,0 +1,25 @@
+---
+---
+
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+div.custom_code {
+  border: 1px solid black;
+
+  h4 {margin-top: 0; padding: 0;}
+
+  h4 span {
+    background-color: #779;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding: 5px;
+  }
+
+  ul {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
