@@ -22,7 +22,7 @@ exclude:
 # Site metadata
 name: "Management.cio.gov"
 description: "Guidance, Resources, and Artifacts to assist agencies in implementing FITARA and other related policies"
-baseurl: http://gsa.github.io/CIOmanagement
+baseurl: http://management2.cio.gov/
 # Uncomment the following line for localhost development at http://127.0.0.1:4000/software/
 # baseurl: /software
 
@@ -35,19 +35,19 @@ branch: gh-pages
 # List links that should appear in the site sidebar here
 navigation:
 - text: Home
-  url: /CIOmanagement/
+  url: /
 - text: Implementation Guidance
-  url: /CIOmanagement/implementation/
+  url: /implementation/
 - text: Policy Resources
-  url: /CIOmanagement/policy/
+  url: /policy/
 - text: FAQ
-  url: /CIOmanagement/faq/
+  url: /faq/
 - text: Schemas
-  url: /CIOmanagement/schema/
+  url: /schema/
 - text: Community Links
-  url: /CIOmanagement/community/
+  url: /community/
 - text: Agency Plans
-  url: /CIOmanagement/plans/
+  url: /plans/
 
 # sass
 sass:
