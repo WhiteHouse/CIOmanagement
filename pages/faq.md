@@ -51,9 +51,13 @@ OMB recently issued instructions to agencies to conduct an annual review of thei
 **According to the template provided to each agency, the Self-Assessment Update is due to the OFCIO Desk Office.  Delivery of the Implementation Plan Status simply requires the .json file.  However, the e-mail implies that all materials should be sent to the OFCIO.  Please confirm that all 3 items, the FITARA Self-Assessment Update, the FITARA Implementation Plan Update (in document format), and the certification from the Deputy Secretary should be sent to one recipient, with the addition of posting the .json file.**
 
 a. The 3 deliverables are: 
+
   i. Self-assessment update -Complete the pre-filled template and email it to your desk officer.
+  
   ii. FITARA milestones -Agencies should use the example JSON file and schema atmanagement.cio.gov/schema to generate a FITARAmilestones.json describing these milestones and post this toagency.gov/digitalstrategy. Use the pre-filled template as a starting point.
+  
   iii. Annual review of your IT Portfolio -a statement from the Deputy Secretary certifying the review and status of your agency's PortfolioStat action items.
+  
 b. For these 3 deliverables, #1 and #3 should be emailed to your OMB desk officer (cc ofcio@omb.eop.gov) and #2 should just be posted online. However, you may want to do the following: email your desk officer with the two attachments (self-assessment and certification) and also include the direct link to the JSON file you posted in the email body.  
 
 
