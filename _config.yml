@@ -35,19 +35,19 @@ branch: gh-pages
 # List links that should appear in the site sidebar here
 navigation:
 - text: Home
-  url: /
+  url: /CIOmanagement/
 - text: Implementation Guidance
-  url: /implementation/
+  url: /CIOmanagement/implementation/
 - text: Policy Resources
-  url: /policy/
+  url: /CIOmanagement/policy/
 - text: FAQ
-  url: /faq/
+  url: /CIOmanagement/faq/
 - text: Schemas
-  url: /schema/
+  url: /CIOmanagement/schema/
 - text: Community Links
-  url: /community/
+  url: /CIOmanagement/community/
 - text: Agency Plans
-  url: /plans/
+  url: /CIOmanagement/plans/
 
 # sass
 sass:
