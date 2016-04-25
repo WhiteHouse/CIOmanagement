@@ -81,7 +81,7 @@ Then, create an entry for each of your agency's FITARA milestones, providing the
 }
 ~~~
 
-*[Agency FITARA Milestones JSON Example File](https://management.cio.gov/schemaexamples/FITARA_milestones_schema.json)*
+*[Agency FITARA Milestones JSON Schema File](https://management.cio.gov/schemaexamples/FITARA_milestones_schema.json)*
 
 *[Agency FITARA Milestones JSON Example File](https://management.cio.gov/schemaexamples/FITARAMilestonesExample.json)*
 
