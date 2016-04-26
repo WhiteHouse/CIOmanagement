@@ -57,7 +57,7 @@ Then, create an entry for each of your agency's FITARA milestones, providing the
 {
   "milestoneDocument": [
     {
-      "updatedDate": "2016-04-30"
+      "updatedDate": "2016-04-30",
     }
   ],
   "milestones": [
