@@ -34,7 +34,7 @@ description: "Add text"
 * [TechStat Toolkit](https://cio.gov/drivingvalue/techstat/browse-toolkit/)
 
 #### IT Workforce Resources 
-Resources to support agencies in developing and maintaining a skilled IT workforce (see section P in the [Common Baseline](/implementation/#Attachment-A).
+Resources to support agencies in developing and maintaining a skilled IT workforce (see section P in the [Common Baseline](/implementation/#Attachment-A)).
 
 * IT Competency Models, Certifications and Guides
   * [Federal Acquisition Certification for Program and Project Managers](https://www.fai.gov/drupal/certification/fac-ppm-certification-requirements)
