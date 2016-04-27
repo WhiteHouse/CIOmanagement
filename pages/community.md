@@ -13,6 +13,15 @@ Monthly (previously biweekly) Implementation support meetings are held every fou
 
 ### FITARA Meeting Agendas
 
+**April 27, 2016**
+
+* Welcome 
+* Agency CIO Evaluations on the IT Dashboard 
+* Expectations for OMB Feedback on April Submissions 
+* Data Center Memo Update
+* Management.cio.gov Overview
+* Questions and Open Discussion 
+
 **March 23, 2016**
 
 * Welcome and Roll-Call
