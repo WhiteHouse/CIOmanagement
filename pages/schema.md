@@ -37,7 +37,7 @@ First, each milestones JSON document must include a "milestoneDocument" section 
 
 |Field Name| Data Type| Required? | Notes|                                  
 | -------- | -------- | --------- | ---- |
-| **updatedDate** | String (yyyy-mm-dd) | Yes | |           
+| **updatedDate** | String (yyyy/mm/dd) | Yes | |           
 
 Then, create an entry for each of your agency's FITARA milestones, providing the following information for each:
 
@@ -46,7 +46,7 @@ Then, create an entry for each of your agency's FITARA milestones, providing the
 --------------                     | --------------                                      | ----------| --------------
 **milestoneID**                    | Int (3)                                             | Yes       |
 **milestoneDesc**                  | String (500)                                         | Yes       |
-**milestoneTargetCompletionDate**  | String (yyyy-mm-dd)                                 | Yes       | JSON doesn't have a "date" type so use a string, but format as 2016-12-25
+**milestoneTargetCompletionDate**  | String (yyyy/mm/dd)                                 | Yes       | JSON doesn't have a "date" type so use a string, but format as 2016/12/25
 **milestoneStatus**                | Select: NotStarted, InProgress, Complete, Deferred  | Yes       | 
 **milestoneStatusDesc**            | String (500)					 | Yes        | Describe in detail agency responses to status (e.g. ongoing actions, dependencies, partial milestones).
 **commonBaselineArea**             | Select: budgetFormulation, budgetExecution, acquisition, organizationAndWorkforce                                        | Yes        | 
