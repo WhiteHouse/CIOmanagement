@@ -4,7 +4,7 @@ title: Overview
 permalink: /
 description: FITARA Draft site 
 ---
-# FITARA Implementation!!!!! 
+# FITARA Implementation
 
 ### Background
 
