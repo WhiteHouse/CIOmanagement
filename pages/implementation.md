@@ -5,6 +5,9 @@ permalink: /implementation/
 description: "FITARA Implementation Guidance"
 ---
 
+# Management and Oversight of Federal Information Technology
+Office of Management and Budget (OMB) M-15-14
+
 _A New Foundation for Technology Management – June 10, 2015_ 
 
 >_It has been over four months since I was appointed the U.S. Chief Information Officer (CIO). In that time I have come to appreciate both the complexity of Federal information technology (IT) as well as the unprecedented opportunity of technology to accelerate the quality and timeliness of services delivered to the American people..._
