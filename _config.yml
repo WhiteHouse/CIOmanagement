@@ -1,7 +1,5 @@
 # markdown 
-markdown: redcarpet
-redcarpet:
-  extensions: ["superscript","tables","with_toc_data","strikethrough","smart"]
+markdown: kramdown
 highlighter: pygments
 
 exclude:
