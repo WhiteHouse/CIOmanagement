@@ -5,9 +5,17 @@ permalink: /faq/
 description: "FAQs on FITARA implementation"
 ---
 
-##Even More Frequently Asked Questions 
+# Frequently Asked Questions 
 
-###Overall Guidance
+## Sections
+[Overall Guidance](#Overall-Guidance)  
+[Submission of Deliverables](#Deliverables)  
+[Budget Formulation and Planning](#Budget)  
+[Acquisition and Execution](#Acquisition)  
+[Organization and Workforce](#Workforce)  
+[Definitions](#Definitions)
+
+### Overall Guidance <a id="Overall-Guidance"></a>
 
 **What is OMB planning to do to make sure agencies successfully and completely implement these requirements?**
 
@@ -37,7 +45,7 @@ CIOs, like other senior management officials, work within the organizational str
 
 Other legislation, primarily the Clinger-Cohen Act of 1996 and the E-Government Act of 2002, require the Director of OMB to issue management guidance for information technology and electronic government activities across the government. Moreover, while the FITARA law contains some specific requirements, it also contains more general requirements that require interpretation for successful FITARA implementation.
 
-###Submission of Deliverables
+### Submission of Deliverables <a id="Deliverables"></a>
 
 **M-15-14 directs agencies to update their self-assessments. What are the expectations for this deadline?**
 
@@ -144,7 +152,7 @@ Use the template for your self-assessment, but it is fine and probably encourage
 
 Timelines would certainly strengthen the plan, yes.
 
-###Budget Formulation and Planning
+### Budget Formulation and Planning <a id="Budget"></a>
 
 **CIO Role in Pre-Budget Submission:  If the organization says it's a three (3) and they say it's because they've developed IT governance process with boards do you require a copy of those Charters?  I would think that would be part of the evidence of completion.  Need to ensure those leads understand the requirement of evidence.**
 
@@ -168,7 +176,7 @@ Yes, each agency was required to include IT Resource Statements in their budget 
 
   “Your justification materials should include a section beginning with the words "IT Resource Statements" that provides the following: a statement from the CIO affirming that the CIO has reviewed and approved the major IT investments portion of your budget request; a statement from the CFO and CIO affirming that the CIO had a significant role in reviewing planned IT support for major program objectives and significant increases and decreases in IT resources; and a statement from the CIO and CFO that the IT Portfolio (Section 55.6) includes appropriate estimates of all IT resources included in the budget request. If for any reason any of the above is not accurate, briefly describe the nature of the inaccuracy. The above statements and discussion must also be included in your agency's annual assurance statement described in OMB Circular A-123.”
 
-###Acquisition and Execution
+### Acquisition and Execution <a id="Acquisition"></a>
 
 **Regarding the CIO's (new) role in "the decision processes for all annual and multi-year planning, programming, budgeting, and execution decisions," what is the scope of "project management," as well as the intended role for the CIO in early planning?**
 
@@ -180,7 +188,7 @@ Section C1 is also intended to provide further context into what activities "pro
 
 All organizations and functions of the agency should provide enough detail to internal and external stakeholders about planned expenditures to ensure appropriate IT management. The agency's selection of what level of detail is appropriate should be defined by the CFO, CAO, and CIO. This is to ensure that CIOs have sufficient visibility into expenditures that are planned to be committed to across the agency. This is not limited to reporting of expenditures after the fact, but rather focuses on ensuring that the agency CIO is included in early conversations that would lead to expenditures related to IT resources. Similarly, the CFO, CAO, and CIO should select the level of detail of expenditure reporting externally to ensure that other stakeholders may also adequately discern where and how decisions related to IT resources are being made.
 
-###Organization and Workforce
+### Organization and Workforce <a id="Workforce"></a>
 
 **Letter I requires that "The CIO and CHCO will develop a set of competency requirements for IT staff."  Is OMB mandating that competency requirements be established for every IT staff person at the departments?  Some agencies have competency requirements for IT program managers (FAC-P/PM) and mandate that they also take IT specialization training, but not necessarily for IT personnel who are not program managers, and believe that trying to achieve this in this calendar year is not realistic.**
 
@@ -194,7 +202,7 @@ The CIO and CHCO should establish the competency requirements that are appropria
 
 The short answer is that that portion of the statutory language does not affect the CIO Assignment Plan. The referenced portion of the law only applies to the contract approval portion of the CIO's responsibility, and that section specifically says the agency "may use the governance processes of the agency to approve such a contract or other agreement if the CIO of the agency is included as a full participant in the governance processes." The agency's implementation of the Common Baseline and CIO Assignment Plan as approved by OMB constitute a governance process which includes the CIO as a full participant. This is why it is critical that the CIO Assignment Plan be designed by the CIO and structured in such a way that the agency CIO retains full accountability for any assigned portions of their role.
 
-###Definitions
+### Definitions <a id="Definitions"></a>
 
 **To what extent are sensors and satellite systems included in the definition of IT resources?**
 
