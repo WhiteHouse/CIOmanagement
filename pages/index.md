@@ -14,7 +14,7 @@ On this site you will find a number of resources related to FITARA implementatio
 
 ### Implementation Guidance
 
-[M-15-14: Management and Oversight of Federal Information Technology](CIOmanagement/implementation/).
+[M-15-14: Management and Oversight of Federal Information Technology](/implementation/).
 To assist agencies in implementation, OMB released this guidance memo to agencies in June 2015. 
 
   * [Download the Policy](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2015/m-15-14.pdf)
@@ -23,7 +23,7 @@ Please use this space to discuss the policy or to ask questions related to polic
 
 #### Key Milestones
 
-* June 10, 2015: OMB implementation guidance, [M-15-14: Management and Oversight of Federal Information Technology](CIOmanagement/implementation/) released.
+* June 10, 2015: OMB implementation guidance, [M-15-14: Management and Oversight of Federal Information Technology](/implementation/) released.
 * August 15, 2015: Agency Self-Assessments, Implementation Plans, and CIO Assignment Plans due to OMB for review and approval.
 * December 31, 2015: Due date for implementation of the Common Baseline.
 * April 30, 2016 (and every April after): Agencies conduct annual review and update self-assessments.
