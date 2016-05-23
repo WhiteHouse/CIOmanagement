@@ -12,6 +12,8 @@ description: "Add text"
 
 * [FITARA Implementation Guidance](/implementation)
 
+* [Applying FITARA Common Baseline to Statistical Agencies and Units (supplemental implementation guidance)](https://management.cio.gov/assets/docs/FITARA_Guidance_Statistical_Agencies_and_Units_OMB.pdf)
+
 * [Frequently Asked Questions (FAQs)](/faq)
 
 * [Management.cio.gov Schema](/schema) 
