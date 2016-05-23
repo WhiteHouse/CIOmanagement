@@ -5,13 +5,15 @@ permalink: /community/
 description: "Add text"
 ---
 
-### Sign up for the FITARA Listserv
+# FITARA Community Resources and Support
+
+## Sign up for the FITARA Listserv
 Anyone with a .gov or .mil email address can join by emailing [listserv@listserv.gsa.gov](mailto:listserv@listserv.gsa.gov), the message should have no subject and the body should say "subscribe FITARA".
 
-### Attend Monthly FITARA Implementation Support Meetings
+## Attend Monthly FITARA Implementation Support Meetings
 Monthly (previously biweekly) Implementation support meetings are held every fourth Wednesday at GSA. To receive the most recent meeting information, join the listserv.
 
-### FITARA Meeting Agendas
+## FITARA Meeting Agendas
 
 **April 27, 2016**
 
