@@ -5,9 +5,9 @@ permalink: /policy/
 description: "Add text"
 ---
 
-### Templates, resources and guidance to help agencies implement FITARA:
+# Templates, resources and guidance to help agencies implement FITARA:
 
-#### Guidance 
+## Guidance 
 * [OMB Memorandum M-15-14: Management and Oversight of Federal Information Technology](/implementation/#OMB-Memorandum-M-15-14) [[Download PDF]](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2015/m-15-14.pdf)
 
 * [FITARA Implementation Guidance](/implementation)
@@ -18,11 +18,11 @@ description: "Add text"
 
 * [April 30th Update Guidance and Template](/assets/docs/April FITARA Update Guidance and Template.docx)
 
-#### Related Policies
+## Related Policies
 
 * [M-16-02: Category Management Policy 15-1: Improving the Acquisition and Management of Common Information Technology: Laptops and Desktops](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2016/m-16-02.pdf)
 
-#### Example Documents & Tools
+## Example Documents & Tools
 * [Common Baseline Template](/assets/docs/Appendix%20C%20-%20Self%20Assessment%20Template%20(6).docx?raw=true)
 
 * [OMB evaluation criteria for agency self-assessments and implementation plans](/assets/docs/FITARA_Agency_Submission_Scoresheet%20(9).docx?raw=true) 
@@ -33,7 +33,7 @@ description: "Add text"
 
 * [TechStat Toolkit](https://cio.gov/drivingvalue/techstat/browse-toolkit/)
 
-#### IT Workforce Resources 
+## IT Workforce Resources 
 Resources to support agencies in developing and maintaining a skilled IT workforce (see section P in the [Common Baseline](/implementation/#Attachment-A)).
 
 * IT Competency Models, Certifications and Guides
@@ -58,12 +58,12 @@ Resources to support agencies in developing and maintaining a skilled IT workfor
   
   * [Flexible Hiring Authority Fact Sheet](/assets/docs/Fact_Sheet-Hiring_Flexibilities%20(2).pdf)
 
-#### Community Resources 
+## Community Resources 
 * [FITARA Listserv Archive](http://listserv.gsa.gov/cgi-bin/wa.exe?A0=FITARA)
 
 * [Monthly FITARA Implementation Meeting Agendas](/community)
 
-#### Other Related Resources
+## Other Related Resources
 
 * [Electronic Stewardship Guidance](https://www.fedcenter.gov/programs/electronics/)
 
