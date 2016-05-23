@@ -5,7 +5,7 @@ permalink: /plans/
 description: "Agency Implementation Plans"
 ---
 
-###Public FITARA Implementation Plans
+### Public FITARA Implementation Plans
 
 * [Department of Agriculture](http://www.usda.gov/documents/federal-info-tech-acquisition-reform-act.pdf)	 	 	 	 	 	 	 
 * [Department of Commerce](https://www.commerce.gov/sites/commerce.gov/files/fitara_doc_baseline_self_assessment_and_plan.docx)	 	 	 	
