@@ -20,7 +20,7 @@ exclude:
 # Site metadata
 name: "Management.cio.gov"
 description: "Guidance, Resources, and Artifacts to assist agencies in implementing FITARA and other related policies"
-baseurl: https://management2.cio.gov/
+baseurl: https://management.cio.gov/
 # Uncomment the following line for localhost development at http://127.0.0.1:4000/software/
 # baseurl: /software
 
