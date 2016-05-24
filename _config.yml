@@ -25,7 +25,7 @@ baseurl: https://management.cio.gov/
 # baseurl: /software
 
 # GitHub information
-org_name: GSA
+org_name: WhiteHouse
 repo_name: CIOmanagement
 branch: gh-pages
 
