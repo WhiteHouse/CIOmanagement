@@ -6,7 +6,9 @@ description: FITARA Implementation
 ---
 # Management and Oversight of Federal Information Technology
 
-Welcome! On this site you will find a number of resources related to FITARA implementation, including a self-assessment template, frequently asked questions, example documents, and an opportunity to interact with other agencies. 
+### Overview
+
+On this site you will find a number of resources related to FITARA implementation, including a self-assessment template, frequently asked questions, example documents, and an opportunity to interact with other agencies. 
 
 
 ### Background
