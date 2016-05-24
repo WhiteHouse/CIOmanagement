@@ -2,7 +2,7 @@
 layout: page
 title: Management and Oversight of Federal Information Technology
 permalink: /
-description: FITARA Draft site 
+description: FITARA Implementation 
 ---
 # Management and Oversight of Federal Information Technology
 
