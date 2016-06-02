@@ -8,7 +8,7 @@ description: "Agency Implementation Plans"
 # Public FITARA Implementation Plans
 
 * [Department of Agriculture](http://www.usda.gov/documents/federal-info-tech-acquisition-reform-act.pdf)	 	 	 	 	 	 	 
-* [Department of Commerce](https://www.commerce.gov/sites/commerce.gov/files/fitara_doc_baseline_self_assessment_and_plan.docx)	 	 	 	
+* [Department of Commerce](https:/beta.commerce.gov/sites/commerce.gov/files/fitara_doc_common_baseline_self_assessment_and_plan_12-18-15.docx)	 	 	 	
 * [Department of Defense](http://www.doncio.navy.mil/Download.aspx?AttachID=7300)	 	 	 	 	 	 	 
 * [Department of Education](http://www2.ed.gov/about/reports/annual/ocio/fitara-implementation-plan.doc)	 	 	 	 	 	 
 * Department of Energy	 	 	 	 	 	 	 
