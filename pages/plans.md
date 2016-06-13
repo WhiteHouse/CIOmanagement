@@ -16,7 +16,7 @@ description: "Agency Implementation Plans"
 * [Department of Homeland Security](https://www.dhs.gov/sites/default/files/publications/digital-strategy/DHS-Common-Baseline-Self-Assessment-and-Plan-v1.0-FINAL-public.pdf)	 	 	 	 	 	 	 
 * [Department of Housing and Urban Development](http://portal.hud.gov/hudportal/documents/huddoc?id=fitara-aa-plan-01-15-2016.pdf)	  
 * [Department of Justice](https://www.justice.gov/open/file/823436/download)	 	 	 	 	 	 	 
-* Department of Labor	 	 	 	 	 	 	 
+* [Department of Labor](https://www.dol.gov/digitalstrategy/DOLCommonBaselineImplementationPlan.pdf)	 	 	 	 	 	 	 
 * [Department of State](http://www.state.gov/documents/organization/254994.pdf)	 	 	 	 	 	 	 
 * [Department of the Interior](https://www.doi.gov/sites/doi.gov/files/uploads/Interior_FITARA_Implementation_Plan_Approved.pdf)	 	 	
 * [Department of the Treasury](https://www.treasury.gov/resource-center/data-chart-center/digitalstrategy/Documents/TREASURY_FITARA_COMMON_BASELINE_IMPLEMENTATION_PLAN_MARCH2016.pdf)	 	 	 	 	 	 	 
