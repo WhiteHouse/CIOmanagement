@@ -96,7 +96,7 @@ Each dataset should include one record for each agency employee with the title o
 **lastName**                          | String (50)                     | Yes       |
 **employmentType**                    | Select: GS, SES, SL, ST, Other  | Yes       | 
 **employmentTypeOther**               | String (500)                    | No        | If employmentType "Other" is used, describe the employment type.
-**typeOfAppointment**                 | Select: career, policitical     | Yes       |
+**typeOfAppointment**                 | Select: career, political    | Yes       |
 **otherResponsibilities**             | String (500)                    | No        |
 **evaluationRatingOfficialTitle**     | String (500)                    | Yes       |
 **evaluationReviewingOfficialTitle**  | String (500)                    | No        | If a "reviewing official" is used, describe their title. 
