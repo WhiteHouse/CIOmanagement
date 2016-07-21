@@ -192,7 +192,7 @@ Before the close of the IDC quarter, identifying the JSON dataset as “[Agency]
 **strategyID**                      | Int (3)                                                                   | Yes       | The unique identifier for the strategy 
 **strategyTitle**                   | String (100)                                                              | Yes       | The title of the strategy  
 **decisionDate**                    | Date (MM/DD/YYYY)                                                         | Yes       | The date the agency decided to use this strategy 
-**ombinitiative**                   | Select: Data Center, Digital Services, Commodity IT, PortfolioStat, Software License Management, Other | Yes       | The primary OMB initiative that categorizes this strategy
+**ombInitiative**                   | Select: Data Center, Digital Services, Commodity IT, PortfolioStat, Software License Management, Other | Yes       | The primary OMB initiative that categorizes this strategy
 **relatedUIIs**                     | String (200)                                                              | No        | Related investments to the strategy, identified as their Unique Investment Identifiers (UIIs) 
 **useOfSavingsAvoidance**           | String (500)                                                              | No        | Explain what the resultant savings will be used for, or how it will be repurposed 
 **amountType**                      | Select: Cost-savings, Cost-avoidance, Both                                | Yes       | Indicate whether the amounts given for each strategy are cost-savings, cost-avoidance, or both as defined in [OMB Circular A-131](https://www.whitehouse.gov/omb/circulars_a131). 
