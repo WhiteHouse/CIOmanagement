@@ -309,4 +309,4 @@ Before the close of the IDC quarter, identifying the JSON dataset as “[Agency]
 
 *[IDC Cost Savings and Avoidance JSON Schema](https://management.cio.gov/schemaexamples/costSavingsAvoidanceSchema.json)*
 
-*[OFCIO JSON User Guide](/schemaexamples/JSON User Guide_v5_04_25_16.pdf)*
+*[OFCIO JSON User Guide](/schemaexamples/JSON User Guide_v5.pdf)*
