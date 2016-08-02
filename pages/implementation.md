@@ -796,7 +796,7 @@ _[Return to the Top]()_
 </p>
 </li>
 <li id="fn:9">
-<p>See <a href="https://community.max.gov/x/LhtGJw)">https://community.max.gov/x/LhtGJw)</a>.
+<p>See <a href="https://community.max.gov/x/LhtGJw)">https://community.max.gov/x/LhtGJw</a>.
 </p>
 </li>
 <li id="fn:10">
@@ -804,7 +804,7 @@ _[Return to the Top]()_
 </p>
 </li>
 <li id="fn:11">
-<p>OMB Circular A-11 available at: <a href="https://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc">https://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc</a>. OMB IT budget capital planning guidance available at: <a href="https://www.whitehouse.gov/omb/e-gov/strategiesandguide">https://www.whitehouse.gov/omb/e-gov/strategiesandguide</a>.
+<p>OMB Circular A-11 available at: <a href="https://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc">https://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc</a>. OMB IT budget capital planning guidance available at: <a href="https://www.whitehouse.gov/omb/e-gov/strategiesandguides">https://www.whitehouse.gov/omb/e-gov/strategiesandguides</a>.
 </p>
 </li>
 <li id="fn:12">
@@ -880,7 +880,7 @@ _[Return to the Top]()_
 </p>
 </li>
 <li id="fn:30">
-<p>U.S. Digital Services Playbook, available at: <a href="https://playbook.cio.gov/">https://playbook.cio.gov/]</a>.
+<p>U.S. Digital Services Playbook, available at: <a href="https://playbook.cio.gov/">https://playbook.cio.gov/</a>.
 </p>
 </li>
 <li id="fn:31">
