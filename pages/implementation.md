@@ -764,7 +764,7 @@ _[Return to the Top]()_
 <div class="footnotes">
   <ol>
     <li id="fn:1">
-<p>[Title VIII, Subtitle D of the National Defense Authorization Act (NDAA) for Fiscal Year 2015, Pub. L. No. 113-291](https://www.congress.gov/113/plaws/publ291/PLAW-113publ291.pdf#page=148). Further references in the text that refer to “FITARA” refer to these sections.
+<p><a href="https://www.congress.gov/113/plaws/publ291/PLAW-113publ291.pdf#page=148">Title VIII, Subtitle D of the National Defense Authorization Act (NDAA) for Fiscal Year 2015, Pub. L. No. 113-29</a>. Further references in the text that refer to “FITARA” refer to these sections.
 </p>
 </li>
     <li id="fn:2">
@@ -776,7 +776,7 @@ _[Return to the Top]()_
 </p>
 </li>
  <li id="fn:4">
-<p>M-14-08 FY2014 PortfolioStat Guidance available at: [https://www.whitehouse.gov/sites/default/files/omb/memoranda/2014/m-14-08.pdf](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2014/m-14-08.pdf).
+<p>M-14-08 FY2014 PortfolioStat Guidance available at: <a href="https://www.whitehouse.gov/sites/default/files/omb/memoranda/2014/m-14-08.pdf">https://www.whitehouse.gov/sites/default/files/omb/memoranda/2014/m-14-08.pdf</a>.
 </p>
 </li>
 <li id="fn:5">
@@ -784,7 +784,7 @@ _[Return to the Top]()_
 </p>
 </li>
 <li id="fn:6">
-<p>Clinger-Cohen Act (40 U.S.C. §§ 11101-11704) available at [http://www.gpo.gov/fdsys/pkg/USCODE-2013-title40/html/USCODE-2013-title40-subtitleIII.htm](http://www.gpo.gov/fdsys/pkg/USCODE-2013-title40/html/USCODE-2013-title40-subtitleIII.htm).
+<p>Clinger-Cohen Act (40 U.S.C. §§ 11101-11704) available at <a href="http://www.gpo.gov/fdsys/pkg/USCODE-2013-title40/html/USCODE-2013-title40-subtitleIII.htm">http://www.gpo.gov/fdsys/pkg/USCODE-2013-title40/html/USCODE-2013-title40-subtitleIII.htm</a>.
 </p>
 </li>
 <li id="fn:7">
@@ -792,11 +792,11 @@ _[Return to the Top]()_
 </p>
 </li>
 <li id="fn:8">
-<p>See Open Data Policy-Managing Information as an Asset (M-13-13) available at: [https://www.whitehouse.gov/sites/default/files/omb/memoranda/2013/m-13-13.pdf](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2013/m-13-13.pdf).
+<p>See Open Data Policy-Managing Information as an Asset (M-13-13) available at: <a href="https://www.whitehouse.gov/sites/default/files/omb/memoranda/2013/m-13-13.pdf">https://www.whitehouse.gov/sites/default/files/omb/memoranda/2013/m-13-13.pdf</a>.
 </p>
 </li>
 <li id="fn:9">
-<p>See [https://community.max.gov/x/LhtGJw](https://community.max.gov/x/LhtGJw).
+<p>See <a href="https://community.max.gov/x/LhtGJw)">https://community.max.gov/x/LhtGJw)</a>.
 </p>
 </li>
 <li id="fn:10">
@@ -804,23 +804,23 @@ _[Return to the Top]()_
 </p>
 </li>
 <li id="fn:11">
-<p>OMB Circular A-11 available at: [https://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc](https://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc). OMB IT budget capital planning guidance available at: [https://www.whitehouse.gov/omb/e-gov/strategiesandguides](https://www.whitehouse.gov/omb/e-gov/strategiesandguides).
+<p>OMB Circular A-11 available at: <a href="https://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc">https://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc</a>. OMB IT budget capital planning guidance available at: <a href="https://www.whitehouse.gov/omb/e-gov/strategiesandguide">https://www.whitehouse.gov/omb/e-gov/strategiesandguide</a>.
 </p>
 </li>
 <li id="fn:12">
-<p>CIO.gov TechStat Toolkit available at: [https://cio.gov/drivingvalue/techstat/browse-toolkit](https://cio.gov/drivingvalue/techstat/browse-toolkit).
+<p>CIO.gov TechStat Toolkit available at: <a href="https://cio.gov/drivingvalue/techstat/browse-toolkit">https://cio.gov/drivingvalue/techstat/browse-toolkit</a>.
 </p>
 </li>
 <li id="fn:13">
-<p>Implementing PortfolioStat (M-12-10) available at: [https://www.whitehouse.gov/sites/default/files/omb/memoranda/2012/m-12-10_1.pdf](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2012/m-12-10_1.pdf).
+<p>Implementing PortfolioStat (M-12-10) available at: <a href="https://www.whitehouse.gov/sites/default/files/omb/memoranda/2012/m-12-10_1.pdf">https://www.whitehouse.gov/sites/default/files/omb/memoranda/2012/m-12-10_1.pdf</a>. 
 </p>
 </li>
 <li id="fn:14">
-<p>Fiscal Year 2013 PortfolioStat Guidance: Strengthening Federal IT Portfolio Management (M-13-09) available at: [https://www.whitehouse.gov/sites/default/files/omb/memoranda/2013/m-13-09.pdf](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2013/m-13-09.pdf).
+<p>Fiscal Year 2013 PortfolioStat Guidance: Strengthening Federal IT Portfolio Management (M-13-09) available at: <a href="https://www.whitehouse.gov/sites/default/files/omb/memoranda/2013/m-13-09.pdf">https://www.whitehouse.gov/sites/default/files/omb/memoranda/2013/m-13-09.pdf</a>.
 </p>
 </li>
 <li id="fn:15">
-<p>Fiscal Year 2014 PortfolioStat (M-14-08) available at: [https://www.whitehouse.gov/sites/default/files/omb/memoranda/2014/m-14-08.pdf](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2014/m-14-08.pdf).
+<p>Fiscal Year 2014 PortfolioStat (M-14-08) available at: <a href="https://www.whitehouse.gov/sites/default/files/omb/memoranda/2014/m-14-08.pdf">https://www.whitehouse.gov/sites/default/files/omb/memoranda/2014/m-14-08.pdf</a>.
 </p>
 </li>
 <li id="fn:16">
@@ -828,23 +828,23 @@ _[Return to the Top]()_
 </p>
 </li>
 <li id="fn:17">
-<p>Implementation Guidance for the Federal Data Center Consolidation Initiative (March 2012) available at [https://www.whitehouse.gov/sites/default/files/omb/assets/egov_docs/cio_memo_fdcci_deliverables_van_roekel_3-19-12.pdf](https://www.whitehouse.gov/sites/default/files/omb/assets/egov_docs/cio_memo_fdcci_deliverables_van_roekel_3-19-12.pdf).
+<p>Implementation Guidance for the Federal Data Center Consolidation Initiative (March 2012) available at <a href="https://www.whitehouse.gov/sites/default/files/omb/assets/egov_docs/cio_memo_fdcci_deliverables_van_roekel_3-19-12.pdf">https://www.whitehouse.gov/sites/default/files/omb/assets/egov_docs/cio_memo_fdcci_deliverables_van_roekel_3-19-12.pdf</a>.
 </p>
 </li>
 <li id="fn:18">
-<p>Guidance for Specialized Information Technology Acquisition Cadres, [https://www.whitehouse.gov/sites/default/files/omb/procurement/memo/guidance-for-specialized-acquisition-cadres.pdf](https://www.whitehouse.gov/sites/default/files/omb/procurement/memo/guidance-for-specialized-acquisition-cadres.pdf).
+<p>Guidance for Specialized Information Technology Acquisition Cadres, <a href="https://www.whitehouse.gov/sites/default/files/omb/procurement/memo/guidance-for-specialized-acquisition-cadres.pdf">https://www.whitehouse.gov/sites/default/files/omb/procurement/memo/guidance-for-specialized-acquisition-cadres.pdf</a>.
 </p>
 </li>
 <li id="fn:19">
-<p>Acquisition Workforce Development Strategic Plan for Civilian Agencies – FY 2010 – 2014, [https://www.whitehouse.gov/sites/default/files/omb/assets/procurement_workforce/AWF_Plan_10272009.pdf](https://www.whitehouse.gov/sites/default/files/omb/assets/procurement_workforce/AWF_Plan_10272009.pdf).
+<p>Acquisition Workforce Development Strategic Plan for Civilian Agencies – FY 2010 – 2014, <a href="https://www.whitehouse.gov/sites/default/files/omb/assets/procurement_workforce/AWF_Plan_10272009.pdf">https://www.whitehouse.gov/sites/default/files/omb/assets/procurement_workforce/AWF_Plan_10272009.pdf</a>.
 </p>
 </li>
 <li id="fn:20">
-<p>M-13-02, Improving Acquisition through Strategic Sourcing, December 5, 2012, [https://www.whitehouse.gov/sites/default/files/omb/memoranda/2013/m-13-02_0.pdf](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2013/m-13-02_0.pdf).
+<p>M-13-02, Improving Acquisition through Strategic Sourcing, December 5, 2012, <a href="https://www.whitehouse.gov/sites/default/files/omb/memoranda/2013/m-13-02_0.pdf">https://www.whitehouse.gov/sites/default/files/omb/memoranda/2013/m-13-02_0.pdf</a>.
 </p>
 </li>
 <li id="fn:21">
-<p>OMB Memorandum, Transforming the Marketplace: Simplifying Federal Procurement to Improve Performance, Drive Innovation, and Increase Savings, December 4, 2014, [https://www.whitehouse.gov/sites/default/files/omb/procurement/memo/simplifying-federal-procurement-to-improve-performance-drive-innovation-increase-savings.pdf](https://www.whitehouse.gov/sites/default/files/omb/procurement/memo/simplifying-federal-procurement-to-improve-performance-drive-innovation-increase-savings.pdf).
+<p>OMB Memorandum, Transforming the Marketplace: Simplifying Federal Procurement to Improve Performance, Drive Innovation, and Increase Savings, December 4, 2014, <a href="https://www.whitehouse.gov/sites/default/files/omb/procurement/memo/simplifying-federal-procurement-to-improve-performance-drive-innovation-increase-savings.pdf">https://www.whitehouse.gov/sites/default/files/omb/procurement/memo/simplifying-federal-procurement-to-improve-performance-drive-innovation-increase-savings.pdf</a>.
 </p>
 </li>
 <li id="fn:22">
@@ -856,7 +856,7 @@ _[Return to the Top]()_
 </p>
 </li>
 <li id="fn:24">
-<p>Federal Acquisition Regulation: Part 7 available at [https://www.acquisition.gov/sites/default/files/current/far/html/FARTOCP07.html](https://www.acquisition.gov/sites/default/files/current/far/html/FARTOCP07.html)
+<p>Federal Acquisition Regulation: Part 7 available at <a href="https://www.acquisition.gov/sites/default/files/current/far/html/FARTOCP07.html">https://www.acquisition.gov/sites/default/files/current/far/html/FARTOCP07.html</a>.
 </p>
 </li>
 <li id="fn:25">
@@ -876,23 +876,23 @@ _[Return to the Top]()_
 </p>
 </li>
 <li id="fn:29">
-<p>See the OMB Office of Federal Procurement Policy Transforming the Marketplace (December 4, 2014) memorandum available at: [https://www.whitehouse.gov/sites/default/files/omb/procurement/memo/simplifying-federal-procurement-to-improve-performance-drive-innovation-increase-savings.pdf](https://www.whitehouse.gov/sites/default/files/omb/procurement/memo/simplifying-federal-procurement-to-improve-performance-drive-innovation-increase-savings.pdf)
+<p>See the OMB Office of Federal Procurement Policy Transforming the Marketplace (December 4, 2014) memorandum available at: <a href="https://www.whitehouse.gov/sites/default/files/omb/procurement/memo/simplifying-federal-procurement-to-improve-performance-drive-innovation-increase-savings.pdf">https://www.whitehouse.gov/sites/default/files/omb/procurement/memo/simplifying-federal-procurement-to-improve-performance-drive-innovation-increase-savings.pdf</a>.
 </p>
 </li>
 <li id="fn:30">
-<p>U.S. Digital Services Playbook, available at: [https://playbook.cio.gov/](https://playbook.cio.gov/)
+<p>U.S. Digital Services Playbook, available at: <a href="https://playbook.cio.gov/">https://playbook.cio.gov/]</a>.
 </p>
 </li>
 <li id="fn:31">
-<p>IT Budget Capital Planning Guidance available at: [https://www.whitehouse.gov/omb/e-gov/strategiesandguides](https://www.whitehouse.gov/omb/e-gov/strategiesandguides)
+<p>IT Budget Capital Planning Guidance available at: <a href="https://www.whitehouse.gov/omb/e-gov/strategiesandguides">https://www.whitehouse.gov/omb/e-gov/strategiesandguides</a>.
 </p>
 </li>
 <li id="fn:32">
-<p>Smarter IT Delivery Cross-Agency Priority Goal, available at: [http://www.performance.gov/node/3403?view=public#overview](http://www.performance.gov/node/3403?view=public#overview)
+<p>Smarter IT Delivery Cross-Agency Priority Goal, available at: <a href="http://www.performance.gov/node/3403?view=public#overview">http://www.performance.gov/node/3403?view=public#overview</a>.
 </p>
 </li>
 <li id="fn:33">
-<p> Open data: Unlocking innovation and performance with liquid information (McKinsey & Company, October 2013) available at: [http://www.mckinsey.com/insights/business_technology/open_data_unlocking_innovation_and_performance_with_liquid_information](http://www.mckinsey.com/insights/business_technology/open_data_unlocking_innovation_and_performance_with_liquid_information)
+<p> Open data: Unlocking innovation and performance with liquid information (McKinsey & Company, October 2013) available at: <a href="http://www.mckinsey.com/insights/business_technology/open_data_unlocking_innovation_and_performance_with_liquid_information">http://www.mckinsey.com/insights/business_technology/open_data_unlocking_innovation_and_performance_with_liquid_information</a>.
 </p>
 </li>
 <li id="fn:34">
@@ -900,11 +900,11 @@ _[Return to the Top]()_
 </p>
 </li>
 <li id="fn:35">
-<p>Project Open Data Dashboard available at: [http://labs.data.gov/dashboard/offices](http://labs.data.gov/dashboard/offices)
+<p>Project Open Data Dashboard available at: <a href="http://labs.data.gov/dashboard/offices">http://labs.data.gov/dashboard/offices</a>.
 </p>
 </li>
 <li id="fn:36">
-<p>Protect metrics are each based on a component of the Cybersecurity Cross-Agency Priority Goal described on Performance.gov. Each of these components is described in detail at: [http://www.dhs.gov/xlibrary/assets/nppd/ciofismametricsfinal.pdf](http://www.dhs.gov/xlibrary/assets/nppd/ciofismametricsfinal.pdf). The Cybersecurity CAP goal metrics are currently being revised for FY 2015 and therefore the performance metrics in this area are subject to change.
+<p>Protect metrics are each based on a component of the Cybersecurity Cross-Agency Priority Goal described on Performance.gov. Each of these components is described in detail at: <a href="http://www.dhs.gov/xlibrary/assets/nppd/ciofismametricsfinal.pdf">http://www.dhs.gov/xlibrary/assets/nppd/ciofismametricsfinal.pdf</a>. The Cybersecurity CAP goal metrics are currently being revised for FY 2015 and therefore the performance metrics in this area are subject to change.
 </p>
 </li>
 <li id="fn:37">
@@ -912,8 +912,8 @@ _[Return to the Top]()_
 </p>
 </li>
 <li id="fn:38">
-<p>FedRAMP Compliant Systems: [https://www.fedramp.gov/marketplace/compliant-systems/](https://www.fedramp.gov/marketplace/compliant-systems/)
+<p>FedRAMP Compliant Systems: <a href="https://www.fedramp.gov/marketplace/compliant-systems/">https://www.fedramp.gov/marketplace/compliant-systems/</a>.
 </p>
 </li>
 <li id="fn:39">
-<p>Available online at: [http://www.whitehouse.gov/sites/default/files/omb/assets/procurement_workforce/AWF_Plan_10272009.pdf](http://www.whitehouse.gov/sites/default/files/omb/assets/procurement_workforce/AWF_Plan_10272009.pdf) 
+<p>Available online at: <a href="http://www.whitehouse.gov/sites/default/files/omb/assets/procurement_workforce/AWF_Plan_10272009.pdf">http://www.whitehouse.gov/sites/default/files/omb/assets/procurement_workforce/AWF_Plan_10272009.pdf</a>.
