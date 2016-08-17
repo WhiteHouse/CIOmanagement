@@ -11,7 +11,7 @@ description: "Agency Implementation Plans"
 * [Department of Commerce](https://www.commerce.gov/sites/commerce.gov/files/fitara_doc_common_baseline_self_assessment_and_plan_12-18-15.docx)	 	 	 	
 * [Department of Defense](http://www.doncio.navy.mil/Download.aspx?AttachID=7300)	 	 	 	 	 	 	 
 * [Department of Education](http://www2.ed.gov/about/reports/annual/ocio/fitara-implementation-plan.doc)	 	 	 	 	 	 
-* Department of Energy	 	 	 	 	 	 	 
+* [Department of Energy](http://energy.gov/cio/articles/doe-fitara-implementation-plan)		 	 	 	 	 	 	 
 * [Department of Health and Human Services](http://www.hhs.gov/sites/default/files/hhs-fitara-implementation-plan.pdf)	 	 	 	 	 	 	 
 * [Department of Homeland Security](https://www.dhs.gov/sites/default/files/publications/digital-strategy/DHS-Common-Baseline-Self-Assessment-and-Plan-v1.0-FINAL-public.pdf)	 	 	 	 	 	 	 
 * [Department of Housing and Urban Development](http://portal.hud.gov/hudportal/documents/huddoc?id=fitara-aa-plan-01-15-2016.pdf)	  
