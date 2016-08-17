@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-04/schema#",
-	"version": "April 2016 (v1)",
+	"version": "August 2016 (v1.1)",
 	"id": "https://management.cio.gov/schema",
 	"name": "/",
 	"title": "FITARA Milestones",
@@ -54,17 +54,17 @@
 					"dcoiArea": {
 						"type": "string",
 						"enum": ["optimization", "closures", "costSavings", "sharedServices", "cloudMigration", "CIOLeadership", "other", "nonDataCenter"]
-					},
-					"required": [
-						"milestoneID",
-						"milestoneDesc",
-						"milestoneTargetCompletionDate",
-						"milestoneStatus",
-						"milestoneStatusDesc",
-						"commonBaselineArea",
-						"dcoiArea"
-					]
-				}
+					}
+				},
+				"required": [
+					"milestoneID",
+					"milestoneDesc",
+					"milestoneTargetCompletionDate",
+					"milestoneStatus",
+					"milestoneStatusDesc",
+					"commonBaselineArea",
+					"dcoiArea"
+				]
 			}
 		}
 	}
