@@ -31,7 +31,7 @@ The JSON schemas listed on this page are case sensitive. The schemas uses a came
 
 The following resources contain helpful tools for working with JSON data format:
 
-* [OFCIO General JSON User Guide](https://community.max.gov/download/attachments/957907369/JSON%20User%20Guide_v6_09_14_16.pdf?version=1&modificationDate=1473866844315&api=v2)
+* [OFCIO General JSON User Guide](/schemaexamples/JSON User Guide_v6_09_14_16.pdf)
 
 * [Tabular to JSON Converter](http://www.csvjson.com/csv2json): to add a new "row" of data to your agency’s JSON file, first ensure that all of the columns have the correct field names and are arranged in the correct order. In Microsoft Excel: highlight and copy the new data you wish to add to your JSON file, making sure to include the column headings, and paste that data into the box on the left side of the page and click the button saying “Convert”. The right side window will show your data in a basic JSON structure. In order to conform with the schemas below, you might need to make adjustments as necessary to mimic the spacing, indentation, brackets, colons, and quotation markings in the sample. 
 
