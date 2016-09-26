@@ -185,7 +185,7 @@ fy18Planned                    |  Decimal, 0 - 100               | Yes       |
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 costsOfClosures |  String, 5 - 10000              | Yes      | 
 costsOfOptimization |  String, 5 - 10000              | Yes      | 
-lifecycleCostSavingsEstimated |  String, 5 - 10000              | Yes      | 
+historicalCostSavings |  String, 5 - 10000              | Yes      | 
 
 #### DCOI Strategic Plan JSON Syntax Example
 
@@ -249,7 +249,7 @@ lifecycleCostSavingsEstimated |  String, 5 - 10000              | Yes      |
 		"fy18Planned": 105,
 		"costsOfClosures": "REQUIRED TEXT.",
 		"costsOfOptimization": "REQUIRED TEXT.",
-		"lifecycleCostSavingsEstimated": "REQUIRED TEXT."
+		"historicalCostSavings": "REQUIRED TEXT."
 	}
 }
 ~~~
