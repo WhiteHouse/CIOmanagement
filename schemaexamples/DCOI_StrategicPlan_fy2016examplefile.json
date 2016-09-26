@@ -56,6 +56,6 @@
 		"fy18Planned": 105,
 		"costsOfClosures": "REQUIRED TEXT",
 		"costsOfOptimization": "REQUIRED TEXT",
-		"lifecycleCostSavingsEstimated": "REQUIRED TEXT"
+		"historicalCostSavings": "REQUIRED TEXT"
 	}
 }
