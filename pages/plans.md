@@ -34,7 +34,7 @@ description: "Agency Implementation Plans"
 
 
 
-# Public FITARA April 30th Milestone Updates
+# Public FITARA Milestone Updates
 
 * [Department of Agriculture](http://www.usda.gov/digitalstrategy/fitaramilestones.json)	 	 	 	 	 	 	 
 * [Department of Commerce](https://www.commerce.gov/sites/commerce.gov/files/fitaramilestones.json)	 	 	 	
@@ -43,13 +43,13 @@ description: "Agency Implementation Plans"
 * Department of Energy	 	 	 	 	 	 	 
 * [Department of Health and Human Services](http://www.hhs.gov/digitalstrategy/fitaramilestones.json)	 	 	 	 	 	 	 
 * [Department of Homeland Security](https://www.dhs.gov/sites/default/files/publications/digital-strategy/fitaramilestones.json)	 	 	 	 
-* [Department of Housing and Urban Development](http://portal.hud.gov/hudportal/documents/huddoc?id=HUDFITARAOMBSub042916.pdf)	  
+* [Department of Housing and Urban Development](http://portal.hud.gov/hudportal/documents/huddoc?id=HUDFITARAOMBSub083016.pdf)	  
 * [Department of Justice](https://www.justice.gov/digitalstrategy/fitaramilestones.json)	 	 	 	 	 	 	 
 * Department of Labor	 	 	 	 	 	 	 
 * [Department of State](http://www.state.gov/digitalstrategy/fitaramilestones.json)	 	 	 	 	 	 	 
 * [Department of the Interior](https://www.doi.gov/sites/doi.gov/files/fitaramilestones.json)	 	 	
 * [Department of the Treasury](https://www.treasury.gov/jsonfiles/fitaramilestones.json)	 	 	 	 	 	 	 
-* [Department of Transportation](https://www.transportation.gov/sites/dot.dev/files/docs/fitaramilestones.json)	 	 	 	 	 	 	 
+* [Department of Transportation](https://www.transportation.gov/sites/dot.gov/files/docs/DOT_FITARA_Milestones.txt)	 	 	 	 	 	 	 
 * [Department of Veterans Affairs](http://www.va.gov/digitalstrategy/fitaramilestones.json)	 	 	 	 	 	 	 
 * [Environmental Protection Agency](https://www.epa.gov/sites/production/files/2016-04/fitaramilestones.json)	
 * [General Services Administration](https://inventory.data.gov/dataset/cedf61aa-c4c8-4c30-8357-9d57362afe9b/resource/69cf9b0f-fe64-4ec3-a082-664d34497d5e/download/fitaramilestones.json)	 	 	 	 	 	 	 
