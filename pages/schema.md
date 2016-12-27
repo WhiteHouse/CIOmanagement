@@ -59,7 +59,7 @@ Then, create an entry for each of your agency's FITARA milestones, providing the
 **milestoneTargetCompletionDate**  | String (yyyy/mm/dd)                                 | Yes       | JSON doesn't have a "date" type so use a string, but format as 2016/12/25
 **milestoneStatus**                | Select: NotStarted, InProgress, Complete, Deferred  | Yes       | 
 **milestoneStatusDesc**            | String (500)					 | Yes        | Describe in detail agency responses to status (e.g. ongoing actions, dependencies, partial milestones).
-**commonBaselineArea**             | Select: budgetFormulation, budgetExecution, acquisition, organizationAndWorkforce,  nonCommonBaseline                                        | Yes        | Common Baseline-related milestones should be associated with oneof these areas of the Common Baseline. Data center-related milestones should have commonBaselineArea equal to "nonCommonBaseline".
+**commonBaselineArea**             | Select: budgetFormulation, budgetExecution, acquisition, organizationAndWorkforce,  nonCommonBaseline                                        | Yes        | Common Baseline-related milestones should be associated with one of these areas of the Common Baseline. Data center-related milestones should have commonBaselineArea equal to "nonCommonBaseline".
 **dcoiArea**			   | Select: optimization, closures, costSavings, sharedServices, cloudMigration, CIOLeadership, other, nonDataCenter  | Yes  | Data center-related milestones should be associated with one of these concepts from the Data Center Optimization Initiative. The "nonDataCenter" response should be used for milestones that are purely related to the Common Baseline.
 
 #### Agency FITARA Milestones JSON Syntax Example
