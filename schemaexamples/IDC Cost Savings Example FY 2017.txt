@@ -1,0 +1,102 @@
+{
+	"strategies": [{
+		"strategyId": 5,
+		"strategyTitle": "Blanket Purchase Agreement",
+		"decisionDate": "04/12/2011",
+		"ombInitiative": "PortfolioStat",
+		"useOfSavingsAvoidance": "These savings will be reinvested in existing major investments, as determined by business needs.",
+		"amountType": "Cost-Avoidance",
+		"relatedUIIs": [
+			"099-000002345",
+			"099-000000123"
+		],
+		"fy2012": {
+			"amount": 4,
+			"netOrGross": "Net"
+		},
+		"fy2013": {
+			"amount": 2.17,
+			"netOrGross": "Net"
+		},
+		"fy2014": {
+			"amount": 5,
+			"netOrGross": "Gross"
+		},
+		"fy2015": {
+			"amount": 0.25,
+			"netOrGross": "Net"
+		},
+		"fy2016": {
+			"amount": 0,
+			"netOrGross": "Net"
+		},
+		"fy2017": {
+			"amount": 0,
+			"netOrGross": "Net"
+		}
+	}, {
+		"strategyId": 6,
+		"strategyTitle": "Document Management System (DMS)",
+		"decisionDate": "12/01/2012",
+		"ombInitiative": "Commodity IT",
+		"amountType": "Cost-Savings",
+		"fy2012": {
+			"amount": 0,
+			"netOrGross": "Net"
+		},
+		"fy2013": {
+			"amount": 0.79,
+			"netOrGross": "Net"
+		},
+		"fy2014": {
+			"amount": 0.699,
+			"netOrGross": "Net"
+		},
+		"fy2015": {
+			"amount": 0.667,
+			"netOrGross": "Gross"
+		},
+		"fy2016": {
+			"amount": 2,
+			"netOrGross": "Net"
+		},
+		"fy2017": {
+			"amount": 0,
+			"netOrGross": "Net"
+		}
+	}, {
+		"strategyId": 3,
+		"strategyTitle": "Legacy System Upgrade",
+		"decisionDate": "12/01/2012",
+		"ombInitiative": "Digital Services",
+		"useOfSavingsAvoidance": "To be determined in forthcoming review board meeting.",
+		"amountType": "Cost-Avoidance",
+		"relatedUIIs": [
+			"099-000003000"
+		],
+		"fy2012": {
+			"amount": 1.2,
+			"netOrGross": "Net"
+		},
+		"fy2013": {
+			"amount": 1.2,
+			"netOrGross": "Net"
+		},
+		"fy2014": {
+			"amount": 1.2,
+			"netOrGross": "Net"
+		},
+		"fy2015": {
+			"amount": 1,
+			"netOrGross": "Net"
+		},
+		"fy2016": {
+			"amount": 0.25,
+			"netOrGross": "Net"
+		},
+		"fy2017": {
+			"amount": 0,
+			"netOrGross": "Net"
+		}
+	}]
+}
