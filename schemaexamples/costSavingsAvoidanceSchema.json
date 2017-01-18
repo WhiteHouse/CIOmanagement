@@ -37,7 +37,8 @@
                     "fy2013",
                     "fy2014",
                     "fy2015",
-		    "fy2016"
+		    "fy2016",
+		    "fy2017"
                 ],
                 "properties": {
                     "strategyId": {
@@ -282,6 +283,39 @@
                                 "name": "amount",
                                 "title": "fy2016 netOrGross schema",
                                 "description": "Fiscal Year 2016 Amount Type (Net or Gross)",
+                                "type": "string",
+                                "enum": [
+                                    "Net",
+                                    "Gross"
+                                ]
+                            }
+                        }
+                    },
+                    "fy2017": {
+                        "id": "https://omb.max.gov/schemas/CostSavingsAndAvoidance/strategies/0/fy2017",
+                        "name": "fy2017",
+                        "title": "fy2017 schema",
+                        "description": "Fiscal Year 2017",
+                        "type": "object",
+                        "required": [
+                            "amount",
+                            "netOrGross"
+                        ],
+                        "properties": {
+                            "amount": {
+                                "id": "https://omb.max.gov/schemas/CostSavingsAndAvoidance/strategies/0/fy2017/properties/amount",
+                                "name": "amount",
+                                "title": "fy2017amount schema",
+                                "description": "Fiscal Year 2017 Amount",
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 1000
+                            },
+                            "netOrGross": {
+                                "id": "https://omb.max.gov/schemas/CostSavingsAndAvoidance/strategies/0/fy2017/netOrGross",
+                                "name": "amount",
+                                "title": "fy2017 netOrGross schema",
+                                "description": "Fiscal Year 2017 Amount Type (Net or Gross)",
                                 "type": "string",
                                 "enum": [
                                     "Net",
