@@ -132,126 +132,145 @@ The DCOI further requires that agencies’ public FITARA Milestones files are up
 **facilityUtilization**                        |                        |           |
 fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match values given in DCOI memorandum, Optimization section.
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
+fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **energyMetering**                        |                        |           |
 fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match values given in DCOI memorandum, Optimization section.
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
+fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **pue**                        |                        |           |
 fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match values given in DCOI memorandum, Optimization section.
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
+fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **virtualization**                        |                        |           |
 fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match values given in DCOI memorandum, Optimization section.
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
+fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **tieredServerUtAutoMonitoring**                        |                        |           |
 fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match values given in DCOI memorandum, Optimization section.
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
+fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **nontieredServerUtAutoMonitoring**                        |                        |           |
 fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match values given in DCOI memorandum, Optimization section.
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
+fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **tieredClosures**                        |                        |           |
 fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match the value given to each agency by OMB, in accordance with the DCOI Memorandum.
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
+fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **nontieredClosures**                        |                        |           |
 fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match the value given to each agency by OMB, in accordance with the DCOI Memorandum
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
+fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **costSavings**                        |                        |           |
-fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match the value given to each agency by OMB, in accordance with the DCOI Memorandum.
-fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
-fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
-fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
+fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match the value given to each agency by OMB, in accordance with the DCOI Memorandum, in MILLIONS of dollars.
+fy16Planned                    	|  Decimal, 0 - 100               | Yes       | Must be expressed in MILLIONS of dollars.
+fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | Must be expressed in MILLIONS of dollars.
+fy17Planned                     |  Decimal, 0 - 100               | Yes       | Must be expressed in MILLIONS of dollars.
+fy18Planned                    |  Decimal, 0 - 100               | Yes       | Must be expressed in MILLIONS of dollars.
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 costsOfClosures |  String, 5 - 10000              | Yes      | 
 costsOfOptimization |  String, 5 - 10000              | Yes      | 
 historicalCostSavings |  String, 5 - 10000              | Yes      | 
 
+
 #### DCOI Strategic Plan JSON Syntax Example
 
 ~~~json
-
 {
 	"optimizationMetrics": {
 		"facilityUtilization": {
 			"fy18OMBtarget": 80.00,
 			"fy16Planned": 75,
+			"fy16Achieved": 79,
 			"fy17Planned": 82,
 			"fy18Planned": 90
 		},
 		"energyMetering": {
 			"fy18OMBtarget": 100.00,
 			"fy16Planned": 	76.5,
+			"fy16Achieved": 79,
 			"fy17Planned": 90,
 			"fy18Planned": 100.00
 		},
 		"pue": {
 			"fy18OMBtarget": 1.50,
 			"fy16Planned": 2,
+			"fy16Achieved": 1.95,
 			"fy17Planned": 1.9,
 			"fy18Planned": 1.42
 		},
 		"virtualization": {
 			"fy18OMBtarget": 4.00,
 			"fy16Planned": 3.5,
-			"fy17Planned": 4,
+			"fy16Achieved": 4,
+			"fy17Planned": 4.5,
 			"fy18Planned": 5
 		},
 		"tieredServerUtAutoMonitoring": {
 			"fy18OMBtarget": 65.00,
 			"fy16Planned": 45,
+			"fy16Achieved": 50,
 			"fy17Planned": 55,
 			"fy18Planned": 75
 		},
 		"nontieredServerUtAutoMonitoring": {
 			"fy18OMBtarget": 65,
 			"fy16Planned": 44,
-			"fy17Planned": 45,
+			"fy16Achieved": 50,
+			"fy17Planned": 55,
 			"fy18Planned": 70
 		}
 	},
 	"tieredClosures": {
 		"fy18OMBtarget": 54,
 		"fy16Planned": 35,
+		"fy16Achieved": 36,
 		"fy17Planned": 45,
 		"fy18Planned": 55
 	},
 	"nontieredClosures": {
 		"fy18OMBtarget": 45,
 		"fy16Planned": 12,
+		"fy16Achieved": 20,
 		"fy17Planned": 30,
 		"fy18Planned": 51
 	},
 	"costSavings": {
 		"fy18OMBtarget": 95,
 		"fy16Planned": 78,
+		"fy16Achieved": 79,
 		"fy17Planned": 90,
 		"fy18Planned": 105,
-		"costsOfClosures": "REQUIRED TEXT.",
-		"costsOfOptimization": "REQUIRED TEXT.",
-		"historicalCostSavings": "REQUIRED TEXT."
+		"costsOfClosures": "REQUIRED TEXT",
+		"costsOfOptimization": "REQUIRED TEXT",
+		"historicalCostSavings": "REQUIRED TEXT"
 	}
 }
+
 ~~~
 
 *[DCOI Strategic Plan JSON Schema](https://management.cio.gov/schemaexamples/DCOI_StrategicPlans_fy2016Schema.json)*
@@ -385,102 +404,119 @@ Before the close of the IDC quarter, identifying the JSON dataset as “[Agency]
  **fy2016**                          |                                                                           |           |                                                                                 
  *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY16, **in MILLIONS of dollars** 
  *netOrGross*                       | Select: Net, Gross                                                         | Yes       | Indicate whether the FY 16 amount is net of costs, or gross
-
+ **fy2017**                          |                                                                           |           |                                                                                 
+ *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY17, **in MILLIONS of dollars** 
+ *netOrGross*                       | Select: Net, Gross                                                         | Yes       | Indicate whether the FY 17 amount is net of costs, or gross
+ 
 #### IDC Cost Savings and Avoidance JSON Syntax Example 
 
 ~~~json
 {
-    "strategies": [
-        {
-            "strategyId": 5,
-            "strategyTitle": "Blanket Purchase Agreement",
-            "decisionDate": "04/12/2011",
-            "ombInitiative": "PortfolioStat",
-            "useOfSavingsAvoidance": "These savings will be reinvested in existing major investments, as determined by business needs.",
-            "amountType": "Cost-Avoidance",
-            "relatedUIIs": [
-                "099-000002345",
-		"099-000000123"
-            ],
-            "fy2012": {
-                "amount": 4,
-                "netOrGross": "Net"
-            },
-            "fy2013": {
-                "amount": 2.17,
-                "netOrGross": "Net"
-            },
-            "fy2014": {
-                "amount": 5,
-                "netOrGross": "Gross"
-            },
-            "fy2015": {
-                "amount": 0.25,
-                "netOrGross": "Net"
-             },
-            "fy2016": {
-                "amount": 0,
-                "netOrGross": "Net"
-            }
-        },
-        {
-            "strategyId": 6,
-            "strategyTitle": "Document Management System (DMS)",
-            "decisionDate": "12/01/2012",
-            "ombInitiative": "Commodity IT",
-            "amountType": "Cost-Savings",
-            "fy2012": {
-                "amount": 0,
-                "netOrGross": "Net"
-            },
-            "fy2013": {
-                "amount": 0.79,
-                "netOrGross": "Net"
-            },
-            "fy2014": {
-                "amount": 0.699,
-                "netOrGross": "Net"
-            },
-            "fy2015": {
-                "amount": 0.667,
-                "netOrGross": "Gross"
-            },
-            "fy2016": {
-                "amount": 0,
-                "netOrGross": "Net"
-            }
-        },
-        {
-            "strategyId": 3,
-            "strategyTitle": "Legacy System Upgrade",
-            "decisionDate": "12/01/2012",
-            "ombInitiative": "Digital Services",
-            "useOfSavingsAvoidance": "To be determined in forthcoming review board meeting.",
-            "amountType": "Cost-Avoidance",
-            "relatedUIIs": [
-                "099-000003000"
-            ],
-            "fy2012": {
-                "amount": 1.2,
-                "netOrGross": "Net"
-            },
-            "fy2013": {
-                "amount": 1.2,
-                "netOrGross": "Net"
-            },
-            "fy2014": {
-                "amount": 1.2,
-                "netOrGross": "Net"
-            },
-            "fy2015": {
-                "amount": 0,
-                "netOrGross": "Net"
-            }
-        }
-    ]
+	"strategies": [{
+		"strategyId": 5,
+		"strategyTitle": "Blanket Purchase Agreement",
+		"decisionDate": "04/12/2011",
+		"ombInitiative": "PortfolioStat",
+		"useOfSavingsAvoidance": "These savings will be reinvested in existing major investments, as determined by business needs.",
+		"amountType": "Cost-Avoidance",
+		"relatedUIIs": [
+			"099-000002345",
+			"099-000000123"
+		],
+		"fy2012": {
+			"amount": 4,
+			"netOrGross": "Net"
+		},
+		"fy2013": {
+			"amount": 2.17,
+			"netOrGross": "Net"
+		},
+		"fy2014": {
+			"amount": 5,
+			"netOrGross": "Gross"
+		},
+		"fy2015": {
+			"amount": 0.25,
+			"netOrGross": "Net"
+		},
+		"fy2016": {
+			"amount": 0,
+			"netOrGross": "Net"
+		},
+		"fy2017": {
+			"amount": 0,
+			"netOrGross": "Net"
+		}
+	}, {
+		"strategyId": 6,
+		"strategyTitle": "Document Management System (DMS)",
+		"decisionDate": "12/01/2012",
+		"ombInitiative": "Commodity IT",
+		"amountType": "Cost-Savings",
+		"fy2012": {
+			"amount": 0,
+			"netOrGross": "Net"
+		},
+		"fy2013": {
+			"amount": 0.79,
+			"netOrGross": "Net"
+		},
+		"fy2014": {
+			"amount": 0.699,
+			"netOrGross": "Net"
+		},
+		"fy2015": {
+			"amount": 0.667,
+			"netOrGross": "Gross"
+		},
+		"fy2016": {
+			"amount": 2,
+			"netOrGross": "Net"
+		},
+		"fy2017": {
+			"amount": 0,
+			"netOrGross": "Net"
+		}
+	}, {
+		"strategyId": 3,
+		"strategyTitle": "Legacy System Upgrade",
+		"decisionDate": "12/01/2012",
+		"ombInitiative": "Digital Services",
+		"useOfSavingsAvoidance": "To be determined in forthcoming review board meeting.",
+		"amountType": "Cost-Avoidance",
+		"relatedUIIs": [
+			"099-000003000"
+		],
+		"fy2012": {
+			"amount": 1.2,
+			"netOrGross": "Net"
+		},
+		"fy2013": {
+			"amount": 1.2,
+			"netOrGross": "Net"
+		},
+		"fy2014": {
+			"amount": 1.2,
+			"netOrGross": "Net"
+		},
+		"fy2015": {
+			"amount": 1,
+			"netOrGross": "Net"
+		},
+		"fy2016": {
+			"amount": 0.25,
+			"netOrGross": "Net"
+		},
+		"fy2017": {
+			"amount": 0,
+			"netOrGross": "Net"
+		}
+	}]
 }
 ~~~
 
 *[IDC Cost Savings and Avoidance JSON Schema](https://management.cio.gov/schemaexamples/costSavingsAvoidanceSchema.json)*
+
+*[IDC Cost Savings and Avoidance JSON Example File](https://management.cio.gov/schemaexamples/IDC Cost Savings Example FY 2017.txt)*
 
 *[OFCIO JSON User Guide for Realized Cost Savings](/schemaexamples/JSON User Guide_v5.pdf)*
