@@ -273,7 +273,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 
 ~~~
 
-*[DCOI Strategic Plan JSON Schema](https://management.cio.gov/schemaexamples/DCOI_StrategicPlans_fy2016Schema.json)*
+*[DCOI Strategic Plan JSON Schema](https://management.cio.gov/schemaexamples/DCOI_StrategicPlans_fy2017Schema.json)*
 
 *[DCOI Strategic Plan JSON Example File](https://management.cio.gov/schemaexamples/DCOI_StrategicPlan_fy2016examplefile.json)*
 
