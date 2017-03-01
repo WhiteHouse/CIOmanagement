@@ -50,9 +50,9 @@
                         "id": "https://omb.max.gov/schemas/BureauITLeadership/leaders/0/employmentType",
                         "type": "string",
                         "title": "EmploymentType schema.",
-                        "description": "Employment type.  One of GS, SES, SL, ST, or Other.",
+                        "description": "Employment type.  One of GS, SES, SL, ST, EJ, EK or Other.",
                         "name": "employmentType",
-                        "enum" : ["GS", "SES", "SL", "ST", "Other"]
+                        "enum" : ["GS", "SES", "SL", "ST", "EJ", "EK", "Other"]
                     },
                     "employmentTypeOther": {
                         "id": "https://omb.max.gov/schemas/BureauITLeadership/leaders/0/employmentTypeOther",
