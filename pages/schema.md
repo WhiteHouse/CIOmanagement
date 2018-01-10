@@ -134,6 +134,7 @@ fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
 fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
+fy17Achieved			|  Decimal, 0 - 100               | Yes       |
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **energyMetering**                        |                        |           |
@@ -141,6 +142,7 @@ fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
 fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
+fy17Achieved			|  Decimal, 0 - 100               | Yes       |
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **pue**                        |                        |           |
@@ -148,6 +150,7 @@ fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
 fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
+fy17Achieved			|  Decimal, 0 - 100               | Yes       |
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **virtualization**                        |                        |           |
@@ -155,6 +158,7 @@ fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
 fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
+fy17Achieved			|  Decimal, 0 - 100               | Yes       |
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **tieredServerUtAutoMonitoring**                        |                        |           |
@@ -162,6 +166,7 @@ fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
 fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
+fy17Achieved			|  Decimal, 0 - 100               | Yes       |
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **nontieredServerUtAutoMonitoring**                        |                        |           |
@@ -169,6 +174,7 @@ fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
 fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
+fy17Achieved			|  Decimal, 0 - 100               | Yes       |
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **tieredClosures**                        |                        |           |
@@ -176,6 +182,7 @@ fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
 fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
+fy17Achieved			|  Decimal, 0 - 100               | Yes       |
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **nontieredClosures**                        |                        |           |
@@ -183,13 +190,15 @@ fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
 fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
+fy17Achieved			|  Decimal, 0 - 100               | Yes       |
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
-explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
+explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 **costSavings**                        |                        |           |
 fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match the value given to each agency by OMB, in accordance with the DCOI Memorandum, in MILLIONS of dollars.
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | Must be expressed in MILLIONS of dollars.
 fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | Must be expressed in MILLIONS of dollars.
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | Must be expressed in MILLIONS of dollars.
+fy17Achieved			|  Decimal, 0 - 100               | Yes       | Must be expressed in MILLIONS of dollars.
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | Must be expressed in MILLIONS of dollars.
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 costsOfClosures |  String, 5 - 10000              | Yes      | 
@@ -207,6 +216,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 			"fy16Planned": 75,
 			"fy16Achieved": 79,
 			"fy17Planned": 82,
+			"fy17Achieved": 80,
 			"fy18Planned": 90
 		},
 		"energyMetering": {
@@ -214,6 +224,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 			"fy16Planned": 	76.5,
 			"fy16Achieved": 79,
 			"fy17Planned": 90,
+			"fy17Achieved": 90,
 			"fy18Planned": 100.00
 		},
 		"pue": {
@@ -221,6 +232,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 			"fy16Planned": 2,
 			"fy16Achieved": 1.95,
 			"fy17Planned": 1.9,
+			"fy17Achieved": 1.8,
 			"fy18Planned": 1.42
 		},
 		"virtualization": {
@@ -228,6 +240,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 			"fy16Planned": 3.5,
 			"fy16Achieved": 4,
 			"fy17Planned": 4.5,
+			"fy17Achieved": 4.6,
 			"fy18Planned": 5
 		},
 		"tieredServerUtAutoMonitoring": {
@@ -235,6 +248,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 			"fy16Planned": 45,
 			"fy16Achieved": 50,
 			"fy17Planned": 55,
+			"fy17Achieved": 55,
 			"fy18Planned": 75
 		},
 		"nontieredServerUtAutoMonitoring": {
@@ -242,6 +256,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 			"fy16Planned": 44,
 			"fy16Achieved": 50,
 			"fy17Planned": 55,
+			"fy17Achieved": 54,
 			"fy18Planned": 70
 		}
 	},
@@ -250,6 +265,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 		"fy16Planned": 35,
 		"fy16Achieved": 36,
 		"fy17Planned": 45,
+		"fy17Achieved": 44,
 		"fy18Planned": 55
 	},
 	"nontieredClosures": {
@@ -257,6 +273,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 		"fy16Planned": 12,
 		"fy16Achieved": 20,
 		"fy17Planned": 30,
+		"fy17Achieved": 30,
 		"fy18Planned": 51
 	},
 	"costSavings": {
@@ -264,6 +281,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 		"fy16Planned": 78,
 		"fy16Achieved": 79,
 		"fy17Planned": 90,
+		"fy17Achieved": 91,
 		"fy18Planned": 105,
 		"costsOfClosures": "REQUIRED TEXT",
 		"costsOfOptimization": "REQUIRED TEXT",
