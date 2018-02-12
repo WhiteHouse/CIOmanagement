@@ -200,6 +200,7 @@ fy16Achieved                    	|  Decimal, 0 - 100               | Yes       |
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | Must be expressed in MILLIONS of dollars.
 fy17Achieved			|  Decimal, 0 - 100               | Yes       | Must be expressed in MILLIONS of dollars.
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | Must be expressed in MILLIONS of dollars.
+fy19Planned                    |  Decimal, 0 - 100               | No       | Must be expressed in MILLIONS of dollars.
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 costsOfClosures |  String, 5 - 10000              | Yes      | 
 costsOfOptimization |  String, 5 - 10000              | Yes      | 
@@ -283,6 +284,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 		"fy17Planned": 90,
 		"fy17Achieved": 91,
 		"fy18Planned": 105,
+		"fy19Planned (optional)": 156,
 		"costsOfClosures": "REQUIRED TEXT",
 		"costsOfOptimization": "REQUIRED TEXT",
 		"historicalCostSavings": "REQUIRED TEXT"
@@ -535,6 +537,6 @@ Before the close of the IDC quarter, identifying the JSON dataset as “[Agency]
 
 *[IDC Cost Savings and Avoidance JSON Schema](https://management.cio.gov/schemaexamples/costSavingsAvoidanceSchema.json)*
 
-*[IDC Cost Savings and Avoidance JSON Example File](https://management.cio.gov/schemaexamples/IDC Cost Savings Example FY 2017.txt)*
+*[IDC Cost Savings and Avoidance JSON Example File](https://management.cio.gov/schemaexamples/IDC%20Cost%20Savings%20Example%20FY%202017.txt)*
 
-*[OFCIO JSON User Guide for Realized Cost Savings](/schemaexamples/JSON User Guide_v5.pdf)*
+*[OFCIO JSON User Guide for Realized Cost Savings](https://management.cio.gov/schemaexamples/JSON%20User%20Guide_v6_09_14_16.pdf)*
