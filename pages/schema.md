@@ -277,14 +277,14 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 		"fy17Achieved": 30,
 		"fy18Planned": 51
 	},
-	"costSavings": {
+	"costSavings (Cumulative)": {
 		"fy18OMBtarget": 95,
 		"fy16Planned": 78,
 		"fy16Achieved": 79,
 		"fy17Planned": 90,
 		"fy17Achieved": 91,
 		"fy18Planned": 105,
-		"fy19Planned (optional)": 156,
+		"fy19Planned (Optional)": 156,
 		"costsOfClosures": "REQUIRED TEXT",
 		"costsOfOptimization": "REQUIRED TEXT",
 		"historicalCostSavings": "REQUIRED TEXT"
