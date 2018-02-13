@@ -200,7 +200,6 @@ fy16Achieved                    	|  Decimal, 0 - 100               | Yes       |
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | Must be cumulative amounts expressed in MILLIONS of dollars.
 fy17Achieved			|  Decimal, 0 - 100               | Yes       | Must be cumulative amounts expressed in MILLIONS of dollars.
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | Must be cumulative amounts expressed in MILLIONS of dollars.
-fy19Planned                    |  Decimal, 0 - 100               | No       | Must be cumulative amounts expressed in MILLIONS of dollars.
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 costsOfClosures |  String, 5 - 10000              | Yes      | 
 costsOfOptimization |  String, 5 - 10000              | Yes      | 
@@ -284,7 +283,6 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 		"fy17Planned": 90,
 		"fy17Achieved": 91,
 		"fy18Planned": 105,
-		"fy19Planned": 156,
 		"costsOfClosures": "REQUIRED TEXT",
 		"costsOfOptimization": "REQUIRED TEXT",
 		"historicalCostSavings": "REQUIRED TEXT"
@@ -427,6 +425,12 @@ Before the close of the IDC quarter, identifying the JSON dataset as “[Agency]
  **fy2017**                          |                                                                           |           |                                                                                 
  *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY17, **in MILLIONS of dollars** 
  *netOrGross*                       | Select: Net, Gross                                                         | Yes       | Indicate whether the FY 17 amount is net of costs, or gross
+  **fy2018**                          |                                                                           |           |                                                                                 
+ *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY18, **in MILLIONS of dollars** 
+ *netOrGross*                       | Select: Net, Gross                                                         | Yes       | Indicate whether the FY 18 amount is net of costs, or gross
+ **fy2019**                          |                                                                           |           |                                                                                 
+ *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY19, **in MILLIONS of dollars** 
+ *netOrGross*                       | Select: Net, Gross                                                         | Yes       | Indicate whether the FY 19 amount is net of costs, or gross
  
 #### IDC Cost Savings and Avoidance JSON Syntax Example 
 
@@ -470,11 +474,11 @@ Before the close of the IDC quarter, identifying the JSON dataset as “[Agency]
 		"fy2018": {
 			"amount": 0,
 			"netOrGross": "Net"
-		),
+		},
 		"fy2019": {
 			"amount": 0,
 			"netOrGross": "Net"
-		)
+		}
 	}, {
 		"strategyId": 6,
 		"strategyTitle": "Document Management System (DMS)",
@@ -508,11 +512,11 @@ Before the close of the IDC quarter, identifying the JSON dataset as “[Agency]
 		"fy2018": {
 			"amount": 0,
 			"netOrGross": "Net"
-		),
+		},
 		"fy2019": {
 			"amount": 0,
 			"netOrGross": "Net"
-		)
+		}
 	}, {
 		"strategyId": 3,
 		"strategyTitle": "Legacy System Upgrade",
@@ -550,11 +554,11 @@ Before the close of the IDC quarter, identifying the JSON dataset as “[Agency]
 		"fy2018": {
 			"amount": 0,
 			"netOrGross": "Net"
-		),
+		},
 		"fy2019": {
 			"amount": 0,
 			"netOrGross": "Net"
-		)
+		}
 	}]
 }
 ~~~
