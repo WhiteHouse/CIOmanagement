@@ -195,12 +195,12 @@ fy18Planned                    |  Decimal, 0 - 100               | Yes       |
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 **costSavings**                        |                        |           |
 fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match the value given to each agency by OMB, in accordance with the DCOI Memorandum, in MILLIONS of dollars.
-fy16Planned                    	|  Decimal, 0 - 100               | Yes       | Must be expressed in MILLIONS of dollars.
-fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | Must be expressed in MILLIONS of dollars.
-fy17Planned                     |  Decimal, 0 - 100               | Yes       | Must be expressed in MILLIONS of dollars.
-fy17Achieved			|  Decimal, 0 - 100               | Yes       | Must be expressed in MILLIONS of dollars.
-fy18Planned                    |  Decimal, 0 - 100               | Yes       | Must be expressed in MILLIONS of dollars.
-fy19Planned                    |  Decimal, 0 - 100               | No       | Must be expressed in MILLIONS of dollars.
+fy16Planned                    	|  Decimal, 0 - 100               | Yes       | Must be cumulative amounts expressed in MILLIONS of dollars.
+fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | Must be cumulative amounts expressed in MILLIONS of dollars.
+fy17Planned                     |  Decimal, 0 - 100               | Yes       | Must be cumulative amounts expressed in MILLIONS of dollars.
+fy17Achieved			|  Decimal, 0 - 100               | Yes       | Must be cumulative amounts expressed in MILLIONS of dollars.
+fy18Planned                    |  Decimal, 0 - 100               | Yes       | Must be cumulative amounts expressed in MILLIONS of dollars.
+fy19Planned                    |  Decimal, 0 - 100               | No       | Must be cumulative amounts expressed in MILLIONS of dollars.
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 costsOfClosures |  String, 5 - 10000              | Yes      | 
 costsOfOptimization |  String, 5 - 10000              | Yes      | 
@@ -277,14 +277,14 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 		"fy17Achieved": 30,
 		"fy18Planned": 51
 	},
-	"costSavings (Cumulative)": {
+	"costSavings": {
 		"fy18OMBtarget": 95,
 		"fy16Planned": 78,
 		"fy16Achieved": 79,
 		"fy17Planned": 90,
 		"fy17Achieved": 91,
 		"fy18Planned": 105,
-		"fy19Planned (Optional)": 156,
+		"fy19Planned": 156,
 		"costsOfClosures": "REQUIRED TEXT",
 		"costsOfOptimization": "REQUIRED TEXT",
 		"historicalCostSavings": "REQUIRED TEXT"
@@ -466,7 +466,15 @@ Before the close of the IDC quarter, identifying the JSON dataset as “[Agency]
 		"fy2017": {
 			"amount": 0,
 			"netOrGross": "Net"
-		}
+		},
+		"fy2018": {
+			"amount": 0,
+			"netOrGross": "Net"
+		),
+		"fy2019": {
+			"amount": 0,
+			"netOrGross": "Net"
+		)
 	}, {
 		"strategyId": 6,
 		"strategyTitle": "Document Management System (DMS)",
@@ -496,7 +504,15 @@ Before the close of the IDC quarter, identifying the JSON dataset as “[Agency]
 		"fy2017": {
 			"amount": 0,
 			"netOrGross": "Net"
-		}
+		},
+		"fy2018": {
+			"amount": 0,
+			"netOrGross": "Net"
+		),
+		"fy2019": {
+			"amount": 0,
+			"netOrGross": "Net"
+		)
 	}, {
 		"strategyId": 3,
 		"strategyTitle": "Legacy System Upgrade",
@@ -530,7 +546,15 @@ Before the close of the IDC quarter, identifying the JSON dataset as “[Agency]
 		"fy2017": {
 			"amount": 0,
 			"netOrGross": "Net"
-		}
+		},
+		"fy2018": {
+			"amount": 0,
+			"netOrGross": "Net"
+		),
+		"fy2019": {
+			"amount": 0,
+			"netOrGross": "Net"
+		)
 	}]
 }
 ~~~
