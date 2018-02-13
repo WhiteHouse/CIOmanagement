@@ -37,7 +37,7 @@ The following resources contain helpful tools for working with JSON data format:
 
 * [JSON Validator](http://jsonlint.com/): Copy and paste the contents of your updated JSON file into the window and click the “Validate” button. The tool will check whether the data is written correctly. If any brackets, quotation marks, colons, or other markings are missing from your file, these issues will be shown to you in error messages beneath the window.
 
-* [JSON Schema Validator](http://jsonschemalint.com/draft4/): Using the link to the schema provided on this page, copy and paste the schema text into the window on the left side of the page. Then, copy and paste your valid JSON file in the window on the right. Any errors or missing information will be shown immediately in the space below your JSON file.
+* [JSON Schema Validator](https://www.liquid-technologies.com/online-json-schema-validator): Using the link to the schema provided on this page, copy and paste the schema text into the window on the left side of the page. Then, copy and paste your valid JSON file in the window on the right. Any errors or missing information will be shown immediately in the space below your JSON file.
 
 ## Agency FITARA Milestones <a id="FITARA"></a>
 
