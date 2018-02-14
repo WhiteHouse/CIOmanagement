@@ -38,7 +38,9 @@
                     "fy2014",
                     "fy2015",
 		    "fy2016",
-		    "fy2017"
+		    "fy2017",
+			"fy2018",
+		    "fy2019"
                 ],
                 "properties": {
                     "strategyId": {
@@ -323,7 +325,106 @@
                                 ]
                             }
                         }
-                    }
+                    },
+			"fy2018": {
+                        "id": "https://omb.max.gov/schemas/CostSavingsAndAvoidance/strategies/0/fy2018",
+                        "name": "fy2018",
+                        "title": "fy2018 schema",
+                        "description": "Fiscal Year 2018",
+                        "type": "object",
+                        "required": [
+                            "amount",
+                            "netOrGross"
+                        ],
+                        "properties": {
+                            "amount": {
+                                "id": "https://omb.max.gov/schemas/CostSavingsAndAvoidance/strategies/0/fy2018/properties/amount",
+                                "name": "amount",
+                                "title": "fy2018amount schema",
+                                "description": "Fiscal Year 2018 Amount",
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 1000
+                            },
+                            "netOrGross": {
+                                "id": "https://omb.max.gov/schemas/CostSavingsAndAvoidance/strategies/0/fy2018/netOrGross",
+                                "name": "amount",
+                                "title": "fy2018 netOrGross schema",
+                                "description": "Fiscal Year 2018 Amount Type (Net or Gross)",
+                                "type": "string",
+                                "enum": [
+                                    "Net",
+                                    "Gross"
+                                ]
+                            }
+                        }
+                    },
+			"fy2018": {
+                        "id": "https://omb.max.gov/schemas/CostSavingsAndAvoidance/strategies/0/fy2018",
+                        "name": "fy2018",
+                        "title": "fy2018 schema",
+                        "description": "Fiscal Year 2018",
+                        "type": "object",
+                        "required": [
+                            "amount",
+                            "netOrGross"
+                        ],
+                        "properties": {
+                            "amount": {
+                                "id": "https://omb.max.gov/schemas/CostSavingsAndAvoidance/strategies/0/fy2018/properties/amount",
+                                "name": "amount",
+                                "title": "fy2018amount schema",
+                                "description": "Fiscal Year 2018 Amount",
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 1000
+                            },
+                            "netOrGross": {
+                                "id": "https://omb.max.gov/schemas/CostSavingsAndAvoidance/strategies/0/fy2018/netOrGross",
+                                "name": "amount",
+                                "title": "fy2018 netOrGross schema",
+                                "description": "Fiscal Year 2018 Amount Type (Net or Gross)",
+                                "type": "string",
+                                "enum": [
+                                    "Net",
+                                    "Gross"
+                                ]
+                            }
+                        }
+                    },
+			"fy2019": {
+                        "id": "https://omb.max.gov/schemas/CostSavingsAndAvoidance/strategies/0/fy2019",
+                        "name": "fy2019",
+                        "title": "fy2019 schema",
+                        "description": "Fiscal Year 2019",
+                        "type": "object",
+                        "required": [
+                            "amount",
+                            "netOrGross"
+                        ],
+                        "properties": {
+                            "amount": {
+                                "id": "https://omb.max.gov/schemas/CostSavingsAndAvoidance/strategies/0/fy2019/properties/amount",
+                                "name": "amount",
+                                "title": "fy2019amount schema",
+                                "description": "Fiscal Year 2019 Amount",
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 1000
+                            },
+                            "netOrGross": {
+                                "id": "https://omb.max.gov/schemas/CostSavingsAndAvoidance/strategies/0/fy2019/netOrGross",
+                                "name": "amount",
+                                "title": "fy2019 netOrGross schema",
+                                "description": "Fiscal Year 2019 Amount Type (Net or Gross)",
+                                "type": "string",
+                                "enum": [
+                                    "Net",
+                                    "Gross"
+                                ]
+                            }
+                        }
+                    }	
                 }
             }
         }

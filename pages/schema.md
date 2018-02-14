@@ -37,7 +37,7 @@ The following resources contain helpful tools for working with JSON data format:
 
 * [JSON Validator](http://jsonlint.com/): Copy and paste the contents of your updated JSON file into the window and click the “Validate” button. The tool will check whether the data is written correctly. If any brackets, quotation marks, colons, or other markings are missing from your file, these issues will be shown to you in error messages beneath the window.
 
-* [JSON Schema Validator](http://jsonschemalint.com/draft4/): Using the link to the schema provided on this page, copy and paste the schema text into the window on the left side of the page. Then, copy and paste your valid JSON file in the window on the right. Any errors or missing information will be shown immediately in the space below your JSON file.
+* [JSON Schema Validator](https://www.liquid-technologies.com/online-json-schema-validator): Using the link to the schema provided on this page, copy and paste the schema text into the window on the left side of the page. Then, copy and paste your valid JSON file in the window on the right. Any errors or missing information will be shown immediately in the space below your JSON file.
 
 ## Agency FITARA Milestones <a id="FITARA"></a>
 
@@ -134,6 +134,7 @@ fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
 fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
+fy17Achieved			|  Decimal, 0 - 100               | Yes       |
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **energyMetering**                        |                        |           |
@@ -141,6 +142,7 @@ fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
 fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
+fy17Achieved			|  Decimal, 0 - 100               | Yes       |
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **pue**                        |                        |           |
@@ -148,6 +150,7 @@ fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
 fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
+fy17Achieved			|  Decimal, 0 - 100               | Yes       |
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **virtualization**                        |                        |           |
@@ -155,6 +158,7 @@ fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
 fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
+fy17Achieved			|  Decimal, 0 - 100               | Yes       |
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **tieredServerUtAutoMonitoring**                        |                        |           |
@@ -162,6 +166,7 @@ fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
 fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
+fy17Achieved			|  Decimal, 0 - 100               | Yes       |
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **nontieredServerUtAutoMonitoring**                        |                        |           |
@@ -169,6 +174,7 @@ fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
 fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
+fy17Achieved			|  Decimal, 0 - 100               | Yes       |
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **tieredClosures**                        |                        |           |
@@ -176,6 +182,7 @@ fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
 fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
+fy17Achieved			|  Decimal, 0 - 100               | Yes       |
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 **nontieredClosures**                        |                        |           |
@@ -183,14 +190,16 @@ fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
 fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
 fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
+fy17Achieved			|  Decimal, 0 - 100               | Yes       |
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
-explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
+explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 **costSavings**                        |                        |           |
 fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match the value given to each agency by OMB, in accordance with the DCOI Memorandum, in MILLIONS of dollars.
-fy16Planned                    	|  Decimal, 0 - 100               | Yes       | Must be expressed in MILLIONS of dollars.
-fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | Must be expressed in MILLIONS of dollars.
-fy17Planned                     |  Decimal, 0 - 100               | Yes       | Must be expressed in MILLIONS of dollars.
-fy18Planned                    |  Decimal, 0 - 100               | Yes       | Must be expressed in MILLIONS of dollars.
+fy16Planned                    	|  Decimal, 0 - 100               | Yes       | Must be cumulative amounts expressed in MILLIONS of dollars.
+fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | Must be cumulative amounts expressed in MILLIONS of dollars.
+fy17Planned                     |  Decimal, 0 - 100               | Yes       | Must be cumulative amounts expressed in MILLIONS of dollars.
+fy17Achieved			|  Decimal, 0 - 100               | Yes       | Must be cumulative amounts expressed in MILLIONS of dollars.
+fy18Planned                    |  Decimal, 0 - 100               | Yes       | Must be cumulative amounts expressed in MILLIONS of dollars.
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
 costsOfClosures |  String, 5 - 10000              | Yes      | 
 costsOfOptimization |  String, 5 - 10000              | Yes      | 
@@ -207,6 +216,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 			"fy16Planned": 75,
 			"fy16Achieved": 79,
 			"fy17Planned": 82,
+			"fy17Achieved": 80,
 			"fy18Planned": 90
 		},
 		"energyMetering": {
@@ -214,6 +224,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 			"fy16Planned": 	76.5,
 			"fy16Achieved": 79,
 			"fy17Planned": 90,
+			"fy17Achieved": 90,
 			"fy18Planned": 100.00
 		},
 		"pue": {
@@ -221,6 +232,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 			"fy16Planned": 2,
 			"fy16Achieved": 1.95,
 			"fy17Planned": 1.9,
+			"fy17Achieved": 1.8,
 			"fy18Planned": 1.42
 		},
 		"virtualization": {
@@ -228,6 +240,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 			"fy16Planned": 3.5,
 			"fy16Achieved": 4,
 			"fy17Planned": 4.5,
+			"fy17Achieved": 4.6,
 			"fy18Planned": 5
 		},
 		"tieredServerUtAutoMonitoring": {
@@ -235,6 +248,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 			"fy16Planned": 45,
 			"fy16Achieved": 50,
 			"fy17Planned": 55,
+			"fy17Achieved": 55,
 			"fy18Planned": 75
 		},
 		"nontieredServerUtAutoMonitoring": {
@@ -242,6 +256,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 			"fy16Planned": 44,
 			"fy16Achieved": 50,
 			"fy17Planned": 55,
+			"fy17Achieved": 54,
 			"fy18Planned": 70
 		}
 	},
@@ -250,6 +265,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 		"fy16Planned": 35,
 		"fy16Achieved": 36,
 		"fy17Planned": 45,
+		"fy17Achieved": 44,
 		"fy18Planned": 55
 	},
 	"nontieredClosures": {
@@ -257,6 +273,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 		"fy16Planned": 12,
 		"fy16Achieved": 20,
 		"fy17Planned": 30,
+		"fy17Achieved": 30,
 		"fy18Planned": 51
 	},
 	"costSavings": {
@@ -264,6 +281,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 		"fy16Planned": 78,
 		"fy16Achieved": 79,
 		"fy17Planned": 90,
+		"fy17Achieved": 91,
 		"fy18Planned": 105,
 		"costsOfClosures": "REQUIRED TEXT",
 		"costsOfOptimization": "REQUIRED TEXT",
@@ -407,6 +425,12 @@ Before the close of the IDC quarter, identifying the JSON dataset as “[Agency]
  **fy2017**                          |                                                                           |           |                                                                                 
  *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY17, **in MILLIONS of dollars** 
  *netOrGross*                       | Select: Net, Gross                                                         | Yes       | Indicate whether the FY 17 amount is net of costs, or gross
+  **fy2018**                          |                                                                           |           |                                                                                 
+ *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY18, **in MILLIONS of dollars** 
+ *netOrGross*                       | Select: Net, Gross                                                         | Yes       | Indicate whether the FY 18 amount is net of costs, or gross
+ **fy2019**                          |                                                                           |           |                                                                                 
+ *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY19, **in MILLIONS of dollars** 
+ *netOrGross*                       | Select: Net, Gross                                                         | Yes       | Indicate whether the FY 19 amount is net of costs, or gross
  
 #### IDC Cost Savings and Avoidance JSON Syntax Example 
 
@@ -446,6 +470,14 @@ Before the close of the IDC quarter, identifying the JSON dataset as “[Agency]
 		"fy2017": {
 			"amount": 0,
 			"netOrGross": "Net"
+		},
+		"fy2018": {
+			"amount": 0,
+			"netOrGross": "Net"
+		},
+		"fy2019": {
+			"amount": 0,
+			"netOrGross": "Net"
 		}
 	}, {
 		"strategyId": 6,
@@ -474,6 +506,14 @@ Before the close of the IDC quarter, identifying the JSON dataset as “[Agency]
 			"netOrGross": "Net"
 		},
 		"fy2017": {
+			"amount": 0,
+			"netOrGross": "Net"
+		},
+		"fy2018": {
+			"amount": 0,
+			"netOrGross": "Net"
+		},
+		"fy2019": {
 			"amount": 0,
 			"netOrGross": "Net"
 		}
@@ -510,6 +550,14 @@ Before the close of the IDC quarter, identifying the JSON dataset as “[Agency]
 		"fy2017": {
 			"amount": 0,
 			"netOrGross": "Net"
+		},
+		"fy2018": {
+			"amount": 0,
+			"netOrGross": "Net"
+		},
+		"fy2019": {
+			"amount": 0,
+			"netOrGross": "Net"
 		}
 	}]
 }
@@ -517,6 +565,6 @@ Before the close of the IDC quarter, identifying the JSON dataset as “[Agency]
 
 *[IDC Cost Savings and Avoidance JSON Schema](https://management.cio.gov/schemaexamples/costSavingsAvoidanceSchema.json)*
 
-*[IDC Cost Savings and Avoidance JSON Example File](https://management.cio.gov/schemaexamples/IDC Cost Savings Example FY 2017.txt)*
+*[IDC Cost Savings and Avoidance JSON Example File](https://management.cio.gov/schemaexamples/IDC%20Cost%20Savings%20Example%20FY%202017.txt)*
 
-*[OFCIO JSON User Guide for Realized Cost Savings](/schemaexamples/JSON User Guide_v5.pdf)*
+*[OFCIO JSON User Guide for Realized Cost Savings](https://management.cio.gov/schemaexamples/JSON%20User%20Guide_v6_09_14_16.pdf)*

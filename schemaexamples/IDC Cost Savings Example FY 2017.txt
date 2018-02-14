@@ -33,6 +33,14 @@
 		"fy2017": {
 			"amount": 0,
 			"netOrGross": "Net"
+		},
+		"fy2018": {
+			"amount": 0,
+			"netOrGross": "Net"
+		},
+		"fy2019": {
+			"amount": 0,
+			"netOrGross": "Net"
 		}
 	}, {
 		"strategyId": 6,
@@ -61,6 +69,14 @@
 			"netOrGross": "Net"
 		},
 		"fy2017": {
+			"amount": 0,
+			"netOrGross": "Net"
+		},
+		"fy2018": {
+			"amount": 0,
+			"netOrGross": "Net"
+		},
+		"fy2019": {
 			"amount": 0,
 			"netOrGross": "Net"
 		}
@@ -95,6 +111,14 @@
 			"netOrGross": "Net"
 		},
 		"fy2017": {
+			"amount": 0,
+			"netOrGross": "Net"
+		},
+		"fy2018": {
+			"amount": 0,
+			"netOrGross": "Net"
+		},
+		"fy2019": {
 			"amount": 0,
 			"netOrGross": "Net"
 		}
