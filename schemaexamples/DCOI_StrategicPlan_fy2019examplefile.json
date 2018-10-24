@@ -1,0 +1,43 @@
+{
+	"optimizationMetrics": {
+		"energyMetering": {
+			"fy19Planned": 18,
+			"fy20Planned": 20
+		},
+		"virtualization": {
+			"fy19Planned": 110,
+			"fy20Planned": 120
+		},
+		"underutilizedServers": {
+			"fy19Planned": 100,
+			"fy20Planned": 25
+		},
+		"availability": {
+			"fy19Planned": 99.9,
+			"fy20Planned": 99.99
+		}
+	},
+	"closures": {
+		"fy16Planned": 35,
+		"fy16Achieved": 36,
+		"fy17Planned": 45,
+		"fy17Achieved": 44,
+		"fy18Planned": 55,
+		"fy18Achieved": 56,
+		"fy19Planned": 66,
+		"fy20Planned": 77
+	},
+	"costSavings": {
+		"fy16Planned": 78,
+		"fy16Achieved": 79,
+		"fy17Planned": 36,
+		"fy17Achieved": 37,
+		"fy18Planned": 12,
+		"fy18Achieved": 13,
+		"fy19Planned": 20,
+		"fy20Planned": 35,
+		"costsOfClosures": "REQUIRED TEXT",
+		"costsOfOptimization": "REQUIRED TEXT",
+		"historicalCostSavings": "REQUIRED TEXT"
+	}
+}

@@ -1,17 +1,17 @@
 ---
 layout: page
-title: FITARA Common Baseline Publishing Schema 
+title: FITARA Common Baseline Publishing Schema
 permalink: /schema/
 filename: schema.md
 ---
 
 ## Sections
-[Tips for Working with JSON](#tips)   
-[Agency FITARA Milestones](#FITARA)    
-[DCOI Strategic Plans](#DCOI)    
-[Bureau IT Leadership Directory](#bureaus)    
-[CIO Governance Board Membership List](#governance)  
-[IDC Realized Cost Savings and Avoidance](#savings)  
+* [Tips for Working with JSON](#tips)
+* [Agency FITARA Milestones](#FITARA)
+* [DCOI Strategic Plans](#DCOI)
+* [Bureau IT Leadership Directory](#bureaus)
+* [CIO Governance Board Membership List](#governance)
+* [IDC Realized Cost Savings and Avoidance](#savings)
 
 ## Tips for Working with JSON <a id="tips"></a>
 
@@ -20,20 +20,20 @@ JSON is a lightweight data-exchange format that is very easy to read, parse and 
 
 Where optional fields are included in a catalog file but are unpopulated, they may be represented by a `null` value. They should not be represented by an empty string (`""`).
 
-The JSON schemas listed on this page are case sensitive. The schemas uses a camel case convention where the first letter of some words within a field are capitalized (usually all words but the first one). While it might seem subtle which characters are uppercase and lowercase, it is necessary to follow the exact same casing as defined in the schema documented here. For example: 
+The JSON schemas listed on this page are case sensitive. The schemas uses a camel case convention where the first letter of some words within a field are capitalized (usually all words but the first one). While it might seem subtle which characters are uppercase and lowercase, it is necessary to follow the exact same casing as defined in the schema documented here. For example:
 
-> Correct: `firstName`  
-> Incorrect: `FirstName`  
-> Incorrect: `firstname`  
-> incorrect: `FIRSTNAME`  
+* Correct: `firstName`
+* Incorrect: `FirstName`
+* Incorrect: `firstname`
+* incorrect: `FIRSTNAME`
 
 #### Tools for Working with JSON Formats
 
 The following resources contain helpful tools for working with JSON data format:
 
-* [OFCIO General JSON User Guide](/schemaexamples/JSON User Guide_v6_09_14_16.pdf)
+* [OFCIO General JSON User Guide](/schemaexamples/JSON%20User%20Guide_v6_09_14_16.pdf)
 
-* [Tabular to JSON Converter](http://www.csvjson.com/csv2json): to add a new "row" of data to your agency’s JSON file, first ensure that all of the columns have the correct field names and are arranged in the correct order. In Microsoft Excel: highlight and copy the new data you wish to add to your JSON file, making sure to include the column headings, and paste that data into the box on the left side of the page and click the button saying “Convert”. The right side window will show your data in a basic JSON structure. In order to conform with the schemas below, you might need to make adjustments as necessary to mimic the spacing, indentation, brackets, colons, and quotation markings in the sample. 
+* [Tabular to JSON Converter](http://www.csvjson.com/csv2json): to add a new "row" of data to your agency’s JSON file, first ensure that all of the columns have the correct field names and are arranged in the correct order. In Microsoft Excel: highlight and copy the new data you wish to add to your JSON file, making sure to include the column headings, and paste that data into the box on the left side of the page and click the button saying “Convert”. The right side window will show your data in a basic JSON structure. In order to conform with the schemas below, you might need to make adjustments as necessary to mimic the spacing, indentation, brackets, colons, and quotation markings in the sample.
 
 * [JSON Validator](http://jsonlint.com/): Copy and paste the contents of your updated JSON file into the window and click the “Validate” button. The tool will check whether the data is written correctly. If any brackets, quotation marks, colons, or other markings are missing from your file, these issues will be shown to you in error messages beneath the window.
 
@@ -45,9 +45,9 @@ Post a "fitaramilestones.json" file to "agency.gov"/digitalstrategy with the fol
 
 First, each milestones JSON document must include a "milestoneDocument" section providing the overall date of last update to the milestones items.
 
-|Field Name| Data Type| Required? | Notes|                                  
+|Field Name| Data Type| Required? | Notes|
 | -------- | -------- | --------- | ---- |
-| **updatedDate** | String (yyyy/mm/dd) | Yes | |           
+| **updatedDate** | String (yyyy/mm/dd) | Yes | |
 
 Then, create an entry for each of your agency's FITARA milestones, providing the following information for each:
 
@@ -57,7 +57,7 @@ Then, create an entry for each of your agency's FITARA milestones, providing the
 **milestoneID**                    | Int (3)                                             | Yes       |
 **milestoneDesc**                  | String (500)                                         | Yes       |
 **milestoneTargetCompletionDate**  | String (yyyy/mm/dd)                                 | Yes       | JSON doesn't have a "date" type so use a string, but format as 2016/12/25
-**milestoneStatus**                | Select: NotStarted, InProgress, Complete, Deferred  | Yes       | 
+**milestoneStatus**                | Select: NotStarted, InProgress, Complete, Deferred  | Yes       |
 **milestoneStatusDesc**            | String (500)					 | Yes        | Describe in detail agency responses to status (e.g. ongoing actions, dependencies, partial milestones).
 **commonBaselineArea**             | Select: budgetFormulation, budgetExecution, acquisition, organizationAndWorkforce,  nonCommonBaseline                                        | Yes        | Common Baseline-related milestones should be associated with one of these areas of the Common Baseline. Data center-related milestones should have commonBaselineArea equal to "nonCommonBaseline".
 **dcoiArea**			   | Select: optimization, closures, costSavings, sharedServices, cloudMigration, CIOLeadership, other, nonDataCenter  | Yes  | Data center-related milestones should be associated with one of these concepts from the Data Center Optimization Initiative. The "nonDataCenter" response should be used for milestones that are purely related to the Common Baseline.
@@ -118,92 +118,56 @@ The DCOI Strategic Plan has the following six required elements:
   5. Historical costs, cost savings, and cost avoidances due to data center consolidation and optimization through fiscal year 2015; and
   6. A statement from the agency CIO stating whether the agency has complied with all reporting requirements in this memorandum and the data center requirements of FITARA. If the agency has not complied with all reporting requirements, the agency must provide a statement describing the reasons for not complying.
 
-Parts **1 – 5** above are required to be posted publicly in machine-readable JSON format at **[agencyhomepage].gov/digitalstrategy/datacenteroptimizationstrategicplan.json**. Agency-specific targets can be found at [datacenters.cio.gov](https://datacenters.cio.gov/agency-strategic-plan/). NOTE: In order to assist agencies with compiling these plans, OGP and OMB have developed a tool to convert agencies’ text-based plans to a JSON format for this purpose. This can be found at [https://datacenters.cio.gov/json-conversion-tool/](https://datacenters.cio.gov/json-conversion-tool/). 
+Parts **1 – 5** above are required to be posted publicly in machine-readable JSON format at **[agencyhomepage].gov/digitalstrategy/datacenteroptimizationstrategicplan.json**. Agency-specific targets can be found at [datacenters.cio.gov](https://datacenters.cio.gov/agency-strategic-plan/). NOTE: In order to assist agencies with compiling these plans, OGP and OMB have developed a tool to convert agencies’ text-based plans to a JSON format for this purpose. This can be found at [https://datacenters.cio.gov/json-conversion-tool/](https://datacenters.cio.gov/json-conversion-tool/).
 
 Part **6** of agencies’ DCOI Strategic Plans may be fulfilled using one of the two templates given in the document file provided on this page.  These must be filled out, signed by agencies’ CIOs, and submitted via email to the OFCIO@omb.eop.gov inbox, CC’ing the agency’s OMB Desk Officer, no later than September 30, 2016.
 
-The DCOI further requires that agencies’ public FITARA Milestones files are updated at their current **[agencyhomepage].gov/digitalstrategy/FITARAmilestones.json** pages to include a minimum of five (5) milestones per fiscal year to be achieved in accordance with the DCOI. The schema and test files associated with the FITARA Milestones collection (located at the top of this webpage) have been updated to reflect this requirement. 
+The DCOI further requires that agencies’ public FITARA Milestones files are updated at their current **[agencyhomepage].gov/digitalstrategy/FITARAmilestones.json** pages to include a minimum of five (5) milestones per fiscal year to be achieved in accordance with the DCOI. The schema and test files associated with the FITARA Milestones collection (located at the top of this webpage) have been updated to reflect this requirement.
 
 [CIO DCOI Certification Statement Templates](https://management.cio.gov/assets/docs/DCOI_StrategicPlans_part6_cioStatement.docx)
 
 | Field Name                          | Data Type                       | Required? | Notes |
 --------------                        | --------------                  | ----------| --------------
 **optimizationMetrics**                        |                        |           |
-**facilityUtilization**                        |                        |           |
-fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match values given in DCOI memorandum, Optimization section.
-fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
-fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
-fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
-fy17Achieved			|  Decimal, 0 - 100               | Yes       |
-fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
-explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
-**energyMetering**                        |                        |           |
-fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match values given in DCOI memorandum, Optimization section.
-fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
-fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
-fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
-fy17Achieved			|  Decimal, 0 - 100               | Yes       |
-fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
-explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
-**pue**                        |                        |           |
-fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match values given in DCOI memorandum, Optimization section.
-fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
-fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
-fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
-fy17Achieved			|  Decimal, 0 - 100               | Yes       |
-fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
-explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
-**virtualization**                        |                        |           |
-fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match values given in DCOI memorandum, Optimization section.
-fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
-fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
-fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
-fy17Achieved			|  Decimal, 0 - 100               | Yes       |
-fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
-explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
-**tieredServerUtAutoMonitoring**                        |                        |           |
-fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match values given in DCOI memorandum, Optimization section.
-fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
-fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
-fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
-fy17Achieved			|  Decimal, 0 - 100               | Yes       |
-fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
-explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
-**nontieredServerUtAutoMonitoring**                        |                        |           |
-fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match values given in DCOI memorandum, Optimization section.
-fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
-fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
-fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
-fy17Achieved			|  Decimal, 0 - 100               | Yes       |
-fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
-explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
-**tieredClosures**                        |                        |           |
-fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match the value given to each agency by OMB, in accordance with the DCOI Memorandum.
-fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
-fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
-fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
-fy17Achieved			|  Decimal, 0 - 100               | Yes       |
-fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
-explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
-**nontieredClosures**                        |                        |           |
-fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match the value given to each agency by OMB, in accordance with the DCOI Memorandum
-fy16Planned                    	|  Decimal, 0 - 100               | Yes       | 
-fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | 
-fy17Planned                     |  Decimal, 0 - 100               | Yes       | 
-fy17Achieved			|  Decimal, 0 - 100               | Yes       |
-fy18Planned                    |  Decimal, 0 - 100               | Yes       | 
+**energyMetering**                        |                        |           | Total count of valid data centers with advanced energy metering installed.
+fy19Planned                    |  Numeric, 0 - 1000               | Yes       |
+fy20Planned                    |  Numeric, 0 - 1000               | Yes       |
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
-**costSavings**                        |                        |           |
-fy18OMBtarget                     |  Decimal, 0 - 100               | Yes       | Must match the value given to each agency by OMB, in accordance with the DCOI Memorandum, in MILLIONS of dollars.
-fy16Planned                    	|  Decimal, 0 - 100               | Yes       | Must be cumulative amounts expressed in MILLIONS of dollars.
-fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | Must be cumulative amounts expressed in MILLIONS of dollars.
-fy17Planned                     |  Decimal, 0 - 100               | Yes       | Must be cumulative amounts expressed in MILLIONS of dollars.
-fy17Achieved			|  Decimal, 0 - 100               | Yes       | Must be cumulative amounts expressed in MILLIONS of dollars.
-fy18Planned                    |  Decimal, 0 - 100               | Yes       | Must be cumulative amounts expressed in MILLIONS of dollars.
-explanationForUnmetPlannedValue |  String, 0 - 10000              | No      | 
-costsOfClosures |  String, 5 - 10000              | Yes      | 
-costsOfOptimization |  String, 5 - 10000              | Yes      | 
-historicalCostSavings |  String, 5 - 10000              | Yes      | 
+**virtualization**                        |                        |           | Total count of virtual hosts (servers + mainframes).
+fy19Planned                    |  Numeric, 0 - 100000               | Yes       |
+fy20Planned                    |  Numeric, 0 - 100000               | Yes       |
+explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
+**underutilizedServers**                        |                        |           | Total count of underutilized servers.
+fy19Planned                    |  Numeric, 0 - 100000               | Yes       |
+fy20Planned                    |  Numeric, 0 - 100000               | Yes       |
+explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
+**availability**                        |                        |           | (Total Planned Hours Availability - Total Hours of Total Downtime) / Planned Hours of Availability * 100
+fy19Planned                    |  Decimal, 0 - 100               | Yes       |
+fy20Planned                    |  Decimal, 0 - 100               | Yes       |
+explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
+**closures**                        |                        |           | Total count of valid facilities marked as "closed."
+fy16Planned                    	|  Numeric, 0 - 100000               | Yes       |
+fy16Achieved                    	|  Numeric, 0 - 100000               | Yes       |
+fy17Planned                     |  Numeric, 0 - 100000               | Yes       |
+fy17Achieved                    	|  Numeric, 0 - 100000               | Yes       |
+fy18Planned                    |  Numeric, 0 - 100000               | Yes       |
+fy18Achieved                    	|  Numeric, 0 - 100000               | Yes       |
+fy19Planned                    |  Numeric, 0 - 100000               | Yes       |
+fy20Planned                    |  Numeric, 0 - 100000               | Yes       |
+explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
+**costSavings**                        |                        |           | Total cost savings, by year.
+fy16Planned                    	|  Decimal, 0 - 100               | Yes       | Must be total amount for **2016 only** expressed in MILLIONS of dollars.
+fy16Achieved                    	|  Decimal, 0 - 100               | Yes       | Must be total amount for **2016 only** expressed in MILLIONS of dollars.
+fy17Planned                     |  Decimal, 0 - 100               | Yes       | Must be total amount for **2017 only** expressed in MILLIONS of dollars.
+fy17Achieved                    	|  Decimal, 0 - 100               | Yes       | Must be total amount for **2017 only** expressed in MILLIONS of dollars.
+fy18Planned                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2018 only** expressed in MILLIONS of dollars.
+fy18Achieved                    	|  Decimal, 0 - 100               | Yes       | Must be total amount for **2018 only** expressed in MILLIONS of dollars.
+fy19Planned                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2019 only** expressed in MILLIONS of dollars.
+fy20Planned                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2020 only** expressed in MILLIONS of dollars.
+explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
+costsOfClosures |  String, 5 - 10000              | Yes      |
+costsOfOptimization |  String, 5 - 10000              | Yes      |
+historicalCostSavings |  String, 5 - 10000              | Yes      |
 
 
 #### DCOI Strategic Plan JSON Syntax Example
@@ -211,78 +175,42 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 ~~~json
 {
 	"optimizationMetrics": {
-		"facilityUtilization": {
-			"fy18OMBtarget": 80.00,
-			"fy16Planned": 75,
-			"fy16Achieved": 79,
-			"fy17Planned": 82,
-			"fy17Achieved": 80,
-			"fy18Planned": 90
-		},
 		"energyMetering": {
-			"fy18OMBtarget": 100.00,
-			"fy16Planned": 	76.5,
-			"fy16Achieved": 79,
-			"fy17Planned": 90,
-			"fy17Achieved": 90,
-			"fy18Planned": 100.00
-		},
-		"pue": {
-			"fy18OMBtarget": 1.50,
-			"fy16Planned": 2,
-			"fy16Achieved": 1.95,
-			"fy17Planned": 1.9,
-			"fy17Achieved": 1.8,
-			"fy18Planned": 1.42
+			"fy19Planned": 18,
+			"fy20Planned": 20
 		},
 		"virtualization": {
-			"fy18OMBtarget": 4.00,
-			"fy16Planned": 3.5,
-			"fy16Achieved": 4,
-			"fy17Planned": 4.5,
-			"fy17Achieved": 4.6,
-			"fy18Planned": 5
+			"fy19Planned": 110,
+			"fy20Planned": 120
 		},
-		"tieredServerUtAutoMonitoring": {
-			"fy18OMBtarget": 65.00,
-			"fy16Planned": 45,
-			"fy16Achieved": 50,
-			"fy17Planned": 55,
-			"fy17Achieved": 55,
-			"fy18Planned": 75
+		"underutilizedServers": {
+			"fy19Planned": 100,
+			"fy20Planned": 25
 		},
-		"nontieredServerUtAutoMonitoring": {
-			"fy18OMBtarget": 65,
-			"fy16Planned": 44,
-			"fy16Achieved": 50,
-			"fy17Planned": 55,
-			"fy17Achieved": 54,
-			"fy18Planned": 70
+		"availability": {
+			"fy19Planned": 99.9,
+			"fy20Planned": 99.99
 		}
 	},
-	"tieredClosures": {
-		"fy18OMBtarget": 54,
+	"closures": {
 		"fy16Planned": 35,
 		"fy16Achieved": 36,
 		"fy17Planned": 45,
 		"fy17Achieved": 44,
-		"fy18Planned": 55
-	},
-	"nontieredClosures": {
-		"fy18OMBtarget": 45,
-		"fy16Planned": 12,
-		"fy16Achieved": 20,
-		"fy17Planned": 30,
-		"fy17Achieved": 30,
-		"fy18Planned": 51
+		"fy18Planned": 55,
+		"fy18Achieved": 56,
+		"fy19Planned": 66,
+		"fy20Planned": 77
 	},
 	"costSavings": {
-		"fy18OMBtarget": 95,
 		"fy16Planned": 78,
 		"fy16Achieved": 79,
-		"fy17Planned": 90,
-		"fy17Achieved": 91,
-		"fy18Planned": 105,
+		"fy17Planned": 36,
+		"fy17Achieved": 37,
+		"fy18Planned": 12,
+		"fy18Achieved": 13,
+		"fy19Planned": 20,
+		"fy20Planned": 35,
 		"costsOfClosures": "REQUIRED TEXT",
 		"costsOfOptimization": "REQUIRED TEXT",
 		"historicalCostSavings": "REQUIRED TEXT"
@@ -291,9 +219,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 
 ~~~
 
-*[DCOI Strategic Plan JSON Schema](https://management.cio.gov/schemaexamples/DCOI_StrategicPlans_fy2016Schema.json)*
-
-*[DCOI Strategic Plan JSON Example File](https://management.cio.gov/schemaexamples/DCOI_StrategicPlan_fy2016examplefile.json)*
+*[DCOI Strategic Plan JSON Example File](https://management.cio.gov/schemaexamples/DCOI_StrategicPlan_fy2019examplefile.json)*
 
 ## Bureau IT Leadership Directory <a id="bureaus"></a>
 Each agency is expected to post a JSON file for their Bureau IT Leadership Directory to the following URL path: [agency.gov]/digitalstrategy/bureaudirectory.json
@@ -305,12 +231,12 @@ Each dataset should include one record for each agency employee with the title o
 **bureauCode**                        | Int (2)                         | Yes       |
 **firstName**                         | String (50)                     | Yes       |
 **lastName**                          | String (50)                     | Yes       |
-**employmentType**                    | Select: GS, SES, SL, ST, Other  | Yes       | 
+**employmentType**                    | Select: GS, SES, SL, ST, Other  | Yes       |
 **employmentTypeOther**               | String (500)                    | No        | If employmentType "Other" is used, describe the employment type.
 **typeOfAppointment**                 | Select: career, political    | Yes       |
 **otherResponsibilities**             | String (500)                    | No        |
 **evaluationRatingOfficialTitle**     | String (500)                    | Yes       |
-**evaluationReviewingOfficialTitle**  | String (500)                    | No        | If a "reviewing official" is used, describe their title. 
+**evaluationReviewingOfficialTitle**  | String (500)                    | No        | If a "reviewing official" is used, describe their title.
 **keyBureauCIO**                      | Select: Yes, No                 | Yes       | Indicate whether this position is designated by the agency CIO as a “key bureau CIO.” Agency CIOs must provide key bureau CIOs’ rating officials input into the agency-wide critical element(s) described in N1 of the FITARA Common Baseline.
 
 #### Bureau IT Leadership Directory JSON Syntax Example
@@ -336,16 +262,16 @@ Each dataset should include one record for each agency employee with the title o
             "employmentType": "SES",
             "typeOfAppointment": "political",
             "evaluationRatingOfficialTitle": "CFO",
-            "keyBureauCIO": "No"            
+            "keyBureauCIO": "No"
         }
     ]
-    
+
 }
 ~~~
 
 *[Bureau IT Leadership Directory JSON Schema](https://management.cio.gov/schemaexamples/bureauITLeadershipSchema.json)*
 
-## CIO Governance Board Membership List <a id="governance"></a> 
+## CIO Governance Board Membership List <a id="governance"></a>
 
 Each agency is expected to post a JSON file for their CIO Governance Board Membership List to the following URL path: [agency.gov]/digitalstrategy/governanceboards.json
 
@@ -359,7 +285,7 @@ Include all governance boards the CIO is a member of. Agencies shall keep this l
 **bureauCode**                        | Int (2)                         | Yes       | Bureau that board is a part of, if at bureau-level or within-bureau board. Otherwise indicate “00”
 **cioInvolvementDescription**         | String (500)                    | No        | Brief description of CIO involvement
 
-#### CIO Governance Board Membership List JSON Syntax Example 
+#### CIO Governance Board Membership List JSON Syntax Example
 
 ~~~json
 {
@@ -375,23 +301,23 @@ Include all governance boards the CIO is a member of. Agencies shall keep this l
             "bureauCode" : "10"
         }
     ]
-    
+
 }
 ~~~
 
 *[CIO Governance Board Membership JSON Schema](https://management.cio.gov/schemaexamples/governanceBoardSchema.json)*
 
-## IDC Realized Cost Savings and Avoidance <a id="savings"></a> 
+## IDC Realized Cost Savings and Avoidance <a id="savings"></a>
 
-On October 23, 2015 agency points of contact were sent their ITOR strategies already converted to JSON format. 
+On October 23, 2015 agency points of contact were sent their ITOR strategies already converted to JSON format.
 
-OMB asks agency submitters to: 
+OMB asks agency submitters to:
 
-1. Check the information in the file for accuracy;  
-2. Update it with any new savings strategies;  
-3. Fill-out any missing information in the required “strategyId” and “ombInitiatives” fields;  
-4. Fill-out the “netOrGross” field for all savings amounts, indicating whether each year’s amount is “Net” of costs (equal to gross cost savings/avoidance achieved minus implementation costs required to achieve the savings) or “Gross” (meaning, ignoring any costs of implementation); and  
-5. Post your finished file on your agency’s [agency.gov]/digitalstrategy/costsavings.json  
+1. Check the information in the file for accuracy;
+2. Update it with any new savings strategies;
+3. Fill-out any missing information in the required “strategyId” and “ombInitiatives” fields;
+4. Fill-out the “netOrGross” field for all savings amounts, indicating whether each year’s amount is “Net” of costs (equal to gross cost savings/avoidance achieved minus implementation costs required to achieve the savings) or “Gross” (meaning, ignoring any costs of implementation); and
+5. Post your finished file on your agency’s [agency.gov]/digitalstrategy/costsavings.json
 
 Before the close of the IDC quarter, identifying the JSON dataset as “[Agency] IT Reform Cost Savings/Avoidance” in your Enterprise Data Inventory and Public Data Listings. Your agency should update this data on a rolling basis as savings are realized, and must ensure that the file is updated with all savings realized in a given quarter during the week prior to the IDC collection deadline.
 
@@ -400,39 +326,39 @@ Before the close of the IDC quarter, identifying the JSON dataset as “[Agency]
 
 | Field Name                        | Data Type                                                                 | Required? | Notes |
 --------------                      | --------------                                                            | ----------| --------------
-**strategyID**                      | Int (3)                                                                   | Yes       | The unique identifier for the strategy 
-**strategyTitle**                   | String (100)                                                              | Yes       | The title of the strategy  
-**decisionDate**                    | Date (MM/DD/YYYY)                                                         | Yes       | The date the agency decided to use this strategy 
+**strategyID**                      | Int (3)                                                                   | Yes       | The unique identifier for the strategy
+**strategyTitle**                   | String (100)                                                              | Yes       | The title of the strategy
+**decisionDate**                    | Date (MM/DD/YYYY)                                                         | Yes       | The date the agency decided to use this strategy
 **ombInitiative**                   | Select: Data Center, Digital Services, Commodity IT, PortfolioStat, Software License Management, Other | Yes       | The primary OMB initiative that categorizes this strategy
-**relatedUIIs**                     | String (200)                                                              | No        | Related investments to the strategy, identified as their Unique Investment Identifiers (UIIs) 
-**useOfSavingsAvoidance**           | String (500)                                                              | No        | Explain what the resultant savings will be used for, or how it will be repurposed 
-**amountType**                      | Select: Cost-savings, Cost-avoidance, Both                                | Yes       | Indicate whether the amounts given for each strategy are cost-savings, cost-avoidance, or both as defined in [OMB Circular A-131](https://www.whitehouse.gov/omb/circulars_a131). 
-**fy2012**                          |                                                                           |           |                                                                                 
- *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY12, **in MILLIONS of dollars** 
- *netOrGross*                       | Select: Net, Gross                                                        | Yes       | Indicate whether the FY 12 amount is net of costs, or gross 
-**fy2013**                          |                                                                           |           |                                                                                 
- *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY13, **in MILLIONS of dollars** 
- *netOrGross*                       | Select: Net, Gross                                                        | Yes       | Indicate whether the FY 13 amount is net of costs, or gross 
-**fy2014**                          |                                                                           |           |                                                                                  
- *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY14, **in MILLIONS of dollars** 
- *netOrGross*                       | Select: Net, Gross                                                        | Yes       | Indicate whether the FY 14 amount is net of costs, or gross 
-**fy2015**                          |                                                                           |           |                                                                                 
- *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY15, **in MILLIONS of dollars** 
+**relatedUIIs**                     | String (200)                                                              | No        | Related investments to the strategy, identified as their Unique Investment Identifiers (UIIs)
+**useOfSavingsAvoidance**           | String (500)                                                              | No        | Explain what the resultant savings will be used for, or how it will be repurposed
+**amountType**                      | Select: Cost-savings, Cost-avoidance, Both                                | Yes       | Indicate whether the amounts given for each strategy are cost-savings, cost-avoidance, or both as defined in [OMB Circular A-131](https://www.whitehouse.gov/omb/circulars_a131).
+**fy2012**                          |                                                                           |           |
+ *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY12, **in MILLIONS of dollars**
+ *netOrGross*                       | Select: Net, Gross                                                        | Yes       | Indicate whether the FY 12 amount is net of costs, or gross
+**fy2013**                          |                                                                           |           |
+ *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY13, **in MILLIONS of dollars**
+ *netOrGross*                       | Select: Net, Gross                                                        | Yes       | Indicate whether the FY 13 amount is net of costs, or gross
+**fy2014**                          |                                                                           |           |
+ *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY14, **in MILLIONS of dollars**
+ *netOrGross*                       | Select: Net, Gross                                                        | Yes       | Indicate whether the FY 14 amount is net of costs, or gross
+**fy2015**                          |                                                                           |           |
+ *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY15, **in MILLIONS of dollars**
  *netOrGross*                       | Select: Net, Gross                                                         | Yes       | Indicate whether the FY 15 amount is net of costs, or gross
- **fy2016**                          |                                                                           |           |                                                                                 
- *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY16, **in MILLIONS of dollars** 
+ **fy2016**                          |                                                                           |           |
+ *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY16, **in MILLIONS of dollars**
  *netOrGross*                       | Select: Net, Gross                                                         | Yes       | Indicate whether the FY 16 amount is net of costs, or gross
- **fy2017**                          |                                                                           |           |                                                                                 
- *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY17, **in MILLIONS of dollars** 
+ **fy2017**                          |                                                                           |           |
+ *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY17, **in MILLIONS of dollars**
  *netOrGross*                       | Select: Net, Gross                                                         | Yes       | Indicate whether the FY 17 amount is net of costs, or gross
-  **fy2018**                          |                                                                           |           |                                                                                 
- *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY18, **in MILLIONS of dollars** 
+  **fy2018**                          |                                                                           |           |
+ *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY18, **in MILLIONS of dollars**
  *netOrGross*                       | Select: Net, Gross                                                         | Yes       | Indicate whether the FY 18 amount is net of costs, or gross
- **fy2019**                          |                                                                           |           |                                                                                 
- *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY19, **in MILLIONS of dollars** 
+ **fy2019**                          |                                                                           |           |
+ *amount*                           | Numeric, 1-1000                                                           | Yes       | _Realized_ total savings for each strategy for FY19, **in MILLIONS of dollars**
  *netOrGross*                       | Select: Net, Gross                                                         | Yes       | Indicate whether the FY 19 amount is net of costs, or gross
- 
-#### IDC Cost Savings and Avoidance JSON Syntax Example 
+
+#### IDC Cost Savings and Avoidance JSON Syntax Example
 
 ~~~json
 {
