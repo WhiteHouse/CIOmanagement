@@ -107,6 +107,7 @@ Then, create an entry for each of your agency's FITARA milestones, providing the
 ## DCOI Strategic Plan Schema <a id="DCOI"></a>
 
 To refresh the Data Center Optimization Initiative (DCOI), OMB is providing updated instructions and schema to agencies.
+
 The DCOI Strategic Plan has the following six required elements:
 
   1. Planned and achieved performance levels for each optimization metric, by year;
