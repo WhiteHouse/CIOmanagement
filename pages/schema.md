@@ -106,13 +106,13 @@ Then, create an entry for each of your agency's FITARA milestones, providing the
 
 ## DCOI Strategic Plan Schema <a id="DCOI"></a>
 
-Under the Data Center Optimization Initiative (DCOI), released August 1, 2016, covered agencies are required to post DCOI Strategic Plans and updates to their FITARA milestones publicly on or before September 30, 2016.
+To refresh the Data Center Optimization Initiative (DCOI), OMB is providing updated instructions and schema to agencies.
 The DCOI Strategic Plan has the following six required elements:
 
   1. Planned and achieved performance levels for each optimization metric, by year;
-  2. Planned and achieved closures, by year;
-  3. An explanation for any optimization metrics and closures for which the agency did not meet the planned level in a previous Strategic Plan;
-  4. Year-by-year calculations of target and actual agency-wide spending and cost savings on data centers from fiscal years 2016 through 2018, including:
+  2. Planned and achieved closures, to be expressed as cumulative values by year;
+  3. An optional field to provide an explanation for any optimization metrics and closures for which the agency did not meet the planned level in a previous Strategic Plan;
+  4. Planned and achieved cost savings on data centers, to be expressed as annual values by year, including:
    a. A description of any initial costs for data center consolidation and optimization; and
   b. Life cycle cost savings and other improvements (including those beyond fiscal year 2018, if applicable);
   5. Historical costs, cost savings, and cost avoidances due to data center consolidation and optimization through fiscal year 2015; and
@@ -120,7 +120,7 @@ The DCOI Strategic Plan has the following six required elements:
 
 Parts **1 – 5** above are required to be posted publicly in machine-readable JSON format at **[agencyhomepage].gov/digitalstrategy/datacenteroptimizationstrategicplan.json**. Agency-specific targets can be found at [datacenters.cio.gov](https://datacenters.cio.gov/agency-strategic-plan/). NOTE: In order to assist agencies with compiling these plans, OGP and OMB have developed a tool to convert agencies’ text-based plans to a JSON format for this purpose. This can be found at [https://datacenters.cio.gov/json-conversion-tool/](https://datacenters.cio.gov/json-conversion-tool/).
 
-Part **6** of agencies’ DCOI Strategic Plans may be fulfilled using one of the two templates given in the document file provided on this page.  These must be filled out, signed by agencies’ CIOs, and submitted via email to the OFCIO@omb.eop.gov inbox, CC’ing the agency’s OMB Desk Officer, no later than September 30, 2016.
+Part **6** of agencies’ DCOI Strategic Plans may be fulfilled using one of the two templates given in the document file provided on this page.  These must be filled out, signed by agencies’ CIOs, and submitted via email to the OFCIO@omb.eop.gov inbox, CC’ing the OMB Agency Liaisons, no later than February 15, 2019.
 
 The DCOI further requires that agencies’ public FITARA Milestones files are updated at their current **[agencyhomepage].gov/digitalstrategy/FITARAmilestones.json** pages to include a minimum of five (5) milestones per fiscal year to be achieved in accordance with the DCOI. The schema and test files associated with the FITARA Milestones collection (located at the top of this webpage) have been updated to reflect this requirement.
 
@@ -131,29 +131,39 @@ The DCOI further requires that agencies’ public FITARA Milestones files are up
 **optimizationMetrics**                        |                        |           |
 **energyMetering**                        |                        |           | Total count of valid data centers with advanced energy metering installed.
 fy19Planned                    |  Numeric, 0 - 1000               | Yes       |
+fy19Achieved                    |  Numeric, 0 - 1000               | Yes       |
 fy20Planned                    |  Numeric, 0 - 1000               | Yes       |
+fy20Achieved                    |  Numeric, 0 - 1000               | Yes       |
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 **virtualization**                        |                        |           | Total count of virtual hosts (servers + mainframes).
 fy19Planned                    |  Numeric, 0 - 100000               | Yes       |
+fy19PAchieved                    |  Numeric, 0 - 100000               | Yes       |
 fy20Planned                    |  Numeric, 0 - 100000               | Yes       |
+fy20Achieved                    |  Numeric, 0 - 100000               | Yes       |
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 **underutilizedServers**                        |                        |           | Total count of underutilized servers.
 fy19Planned                    |  Numeric, 0 - 100000               | Yes       |
+fy19Achieved                    |  Numeric, 0 - 100000               | Yes       |
 fy20Planned                    |  Numeric, 0 - 100000               | Yes       |
+fy20Achieved                    |  Numeric, 0 - 100000               | Yes       |
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 **availability**                        |                        |           | (Total Planned Hours Availability - Total Hours of Total Downtime) / Planned Hours of Availability * 100
-fy19Planned                    |  Decimal, 0 - 100               | Yes       |
-fy20Planned                    |  Decimal, 0 - 100               | Yes       |
+fy19Planned                    |  Decimal, 0 - 100               | Yes       | Round to 3 digits to the right of the decimal point (e.g., maximum = 99.999)
+fy19Achieved                    |  Decimal, 0 - 100               | Yes       | Round to 3 digits to the right of the decimal point (e.g., maximum = 99.999)
+fy20Planned                    |  Decimal, 0 - 100               | Yes       | Round to 3 digits to the right of the decimal point (e.g., maximum = 99.999)
+fy20Achieved                    |  Decimal, 0 - 100               | Yes       | Round to 3 digits to the right of the decimal point (e.g., maximum = 99.999)
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 **closures**                        |                        |           | Total count of valid facilities marked as "closed."
-fy16Planned                    	|  Numeric, 0 - 100000               | Yes       |
-fy16Achieved                    	|  Numeric, 0 - 100000               | Yes       |
-fy17Planned                     |  Numeric, 0 - 100000               | Yes       |
-fy17Achieved                    	|  Numeric, 0 - 100000               | Yes       |
-fy18Planned                    |  Numeric, 0 - 100000               | Yes       |
-fy18Achieved                    	|  Numeric, 0 - 100000               | Yes       |
-fy19Planned                    |  Numeric, 0 - 100000               | Yes       |
-fy20Planned                    |  Numeric, 0 - 100000               | Yes       |
+fy16Planned                    	|  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
+fy16Achieved                    	|  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
+fy17Planned                     |  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
+fy17Achieved                    	|  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
+fy18Planned                    |  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
+fy18Achieved                    	|  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
+fy19Planned                    |  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
+fy19Achieved                    |  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
+fy20Planned                    |  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
+fy20Achieved                    |  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 **costSavings**                        |                        |           | Total cost savings, by year.
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | Must be total amount for **2016 only** expressed in MILLIONS of dollars.
@@ -163,7 +173,9 @@ fy17Achieved                    	|  Decimal, 0 - 100               | Yes       |
 fy18Planned                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2018 only** expressed in MILLIONS of dollars.
 fy18Achieved                    	|  Decimal, 0 - 100               | Yes       | Must be total amount for **2018 only** expressed in MILLIONS of dollars.
 fy19Planned                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2019 only** expressed in MILLIONS of dollars.
+fy19Achieved                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2019 only** expressed in MILLIONS of dollars.
 fy20Planned                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2020 only** expressed in MILLIONS of dollars.
+fy20Achieved                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2020 only** expressed in MILLIONS of dollars.
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 costsOfClosures |  String, 5 - 10000              | Yes      |
 costsOfOptimization |  String, 5 - 10000              | Yes      |
@@ -177,19 +189,27 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 	"optimizationMetrics": {
 		"energyMetering": {
 			"fy19Planned": 18,
-			"fy20Planned": 20
+			"fy19Achieved": 0,
+			"fy20Planned": 20,
+			"fy20Achieved": 0
 		},
 		"virtualization": {
 			"fy19Planned": 110,
-			"fy20Planned": 120
+			"fy19Achieved": 0,
+			"fy20Planned": 120,
+			"fy20Achieved": 0
 		},
 		"underutilizedServers": {
 			"fy19Planned": 100,
-			"fy20Planned": 25
+			"fy19Achieved": 0,
+			"fy20Planned": 25,
+			"fy20Achieved": 0
 		},
 		"availability": {
 			"fy19Planned": 99.9,
-			"fy20Planned": 99.99
+			"fy19Achieved": 0,
+			"fy20Planned": 99.99,
+			"fy20Achieved": 0
 		}
 	},
 	"closures": {
@@ -200,7 +220,9 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 		"fy18Planned": 55,
 		"fy18Achieved": 56,
 		"fy19Planned": 66,
-		"fy20Planned": 77
+		"fy19Achieved": 0,
+		"fy20Planned": 77,
+		"fy20Achieved": 0
 	},
 	"costSavings": {
 		"fy16Planned": 78,
@@ -210,7 +232,9 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 		"fy18Planned": 12,
 		"fy18Achieved": 13,
 		"fy19Planned": 20,
+		"fy19Achieved": 0,
 		"fy20Planned": 35,
+		"fy20Achieved": 0,
 		"costsOfClosures": "REQUIRED TEXT",
 		"costsOfOptimization": "REQUIRED TEXT",
 		"historicalCostSavings": "REQUIRED TEXT"
