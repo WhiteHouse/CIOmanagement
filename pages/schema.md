@@ -115,17 +115,19 @@ The DCOI Strategic Plan has the following six required elements:
   3. An optional field to provide an explanation for any optimization metrics and closures for which the agency did not meet the planned level in a previous Strategic Plan;
   4. Planned and achieved cost savings on data centers, to be expressed as annual values by year, including:
    a. A description of any initial costs for data center consolidation and optimization; and
-  b. Life cycle cost savings and other improvements (including those beyond fiscal year 2018, if applicable);
+  b. Life cycle cost savings and other improvements (if applicable);
   5. Historical costs, cost savings, and cost avoidances due to data center consolidation and optimization through fiscal year 2015; and
   6. A statement from the agency CIO stating whether the agency has complied with all reporting requirements in this memorandum and the data center requirements of FITARA. If the agency has not complied with all reporting requirements, the agency must provide a statement describing the reasons for not complying.
 
-Parts **1 – 5** above are required to be posted publicly in machine-readable JSON format at **[agencyhomepage].gov/digitalstrategy/datacenteroptimizationstrategicplan.json**. NOTE: In order to assist agencies with compiling these plans, OGP and OMB have developed a tool to convert agencies’ text-based plans to a JSON format for this purpose. This can be found at [https://datacenters.cio.gov/json-conversion-tool/](https://datacenters.cio.gov/json-conversion-tool/).
+Parts **1 – 5** above are required to be posted publicly in machine-readable JSON format at **[agencyhomepage].gov/digitalstrategy/datacenteroptimizationstrategicplan.json**. NOTE: In order to assist agencies with compiling these plans, OGP and OMB have developed a tool to convert agencies’ text-based plans to a JSON format for this purpose. This can be found at [https://datacenters.cio.gov/json-conversion-tool/](https://datacenters.cio.gov/json-conversion-tool/). **DCOI Strategic Plans are due no later than April 12, 2019.**
 
-Part **6** of agencies’ DCOI Strategic Plans may be fulfilled using one of the two templates given in the document file provided on this page.  These must be filled out, signed by agencies’ CIOs, and submitted via email to the OFCIO@omb.eop.gov inbox, CC’ing the OMB Agency Liaisons, no later than February 15, 2019.
+Part **6** of agencies’ DCOI Strategic Plans may be fulfilled using the template labeled "CIO DCOI Certification Statement Templates" provided below. This statement must be filled out, signed by agencies’ CIOs, and submitted via email to the OFCIO@omb.eop.gov inbox, CC’ing the OMB Agency Liaisons, **also no later than April 12, 2019.**
 
 The DCOI further requires that agencies’ public FITARA Milestones files are updated at their current **[agencyhomepage].gov/digitalstrategy/FITARAmilestones.json** pages to include a minimum of five (5) milestones per fiscal year to be achieved in accordance with the DCOI. The schema and test files associated with the FITARA Milestones collection (located at the top of this webpage) have been updated to reflect this requirement.
 
 [CIO DCOI Certification Statement Templates](https://management.cio.gov/assets/docs/DCOI_StrategicPlans_part6_cioStatement.docx)
+
+**DCOI Strategic Plan Schema:**
 
 | Field Name                          | Data Type                       | Required? | Notes |
 --------------                        | --------------                  | ----------| --------------
