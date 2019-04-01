@@ -144,13 +144,13 @@ fy19Achieved                    |  Numeric, 0 - 100000               | Yes      
 fy20Planned                    |  Numeric, 0 - 100000               | Yes       |
 fy20Achieved                    |  Numeric, 0 - 100000               | Yes       |
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
-methodology 			|  String, 0 - 10000              | No      | Optional field to explain the methodology your agency used to arrive at the Virtualization metric. If the methodology is different between data centers, please explain in the inventory comments field.
 **underutilizedServers**                        |                        |           | Total count of underutilized servers.
 fy19Planned                    |  Numeric, 0 - 100000               | Yes       |
 fy19Achieved                    |  Numeric, 0 - 100000               | Yes       |
 fy20Planned                    |  Numeric, 0 - 100000               | Yes       |
 fy20Achieved                    |  Numeric, 0 - 100000               | Yes       |
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
+methodology 			|  String, 0 - 10000              | No      | Optional field to explain the methodology your agency used to arrive at the underutilized servers metric. If the methodology is different between data centers, please explain in the inventory comments field.
 **availability**                        |                        |           | (Total Planned Hours Availability - Total Hours of Total Downtime) / Planned Hours of Availability * 100
 fy19Planned                    |  Decimal, 0 - 100               | Yes       | Round to 3 digits to the right of the decimal point (e.g., maximum = 99.999)
 fy19Achieved                    |  Decimal, 0 - 100               | Yes       | Round to 3 digits to the right of the decimal point (e.g., maximum = 99.999)
