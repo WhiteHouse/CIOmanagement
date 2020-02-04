@@ -139,6 +139,8 @@ fy20Planned                    |  Numeric, 0 - 1000               | Yes       |
 fy20Achieved                    |  Numeric, 0 - 1000               | Yes       |
 fy21Planned                     |  Numeric, 0 - 1000               | Yes       |
 fy21Achieved			|  Numeric, 0 - 1000		   | Yes       |
+fy22Planned                     |  Numeric, 0 - 1000               | Yes       |
+fy22Achieved			|  Numeric, 0 - 1000		   | Yes       |
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 **virtualization**                        |                        |           | Total count of virtual hosts (servers + mainframes). Agencies may report systems under their cloud investments towards this total count to more accurately reflect the state of their virtualized portfolio.
 fy19Planned                    |  Numeric, 0 - 100000               | Yes       |
@@ -147,6 +149,8 @@ fy20Planned                    |  Numeric, 0 - 100000               | Yes       
 fy20Achieved                    |  Numeric, 0 - 100000               | Yes       |
 fy21Planned                     |  Numeric, 0 - 100000               | Yes       |
 fy21Achieved                    |  Numeric, 0 - 100000               | Yes       |
+fy22Planned                     |  Numeric, 0 - 100000               | Yes       |
+fy22Achieved                    |  Numeric, 0 - 100000               | Yes       |
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 **underutilizedServers**                        |                        |           | Total count of underutilized servers.
 fy19Planned                    |  Numeric, 0 - 100000               | Yes       |
@@ -155,6 +159,8 @@ fy20Planned                    |  Numeric, 0 - 100000               | Yes       
 fy20Achieved                    |  Numeric, 0 - 100000               | Yes       |
 fy21Planned                     |  Numeric, 0 - 100000               | Yes       |
 fy21Achieved                    |  Numeric, 0 - 100000               | Yes       |
+fy22Planned                     |  Numeric, 0 - 100000               | Yes       |
+fy22Achieved                    |  Numeric, 0 - 100000               | Yes       |
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 methodology 			|  String, 0 - 10000              | No      | Optional field to explain the methodology your agency used to arrive at the underutilized servers metric. If the methodology is different between data centers, please explain in the inventory comments field.
 **availability**                        |                        |           | (Total Planned Hours Availability - Total Hours of Total Downtime) / Planned Hours of Availability * 100
@@ -164,6 +170,8 @@ fy20Planned                    |  Decimal, 0 - 100               | Yes       | R
 fy20Achieved                    |  Decimal, 0 - 100               | Yes       | Round to 3 digits to the right of the decimal point (e.g., maximum = 99.999)
 fy21Planned                    |  Decimal, 0 - 100               | Yes       | Round to 3 digits to the right of the decimal point (e.g., maximum = 99.999)
 fy21Achieved                    |  Decimal, 0 - 100               | Yes       | Round to 3 digits to the right of the decimal point (e.g., maximum = 99.999)
+fy22Planned                    |  Decimal, 0 - 100               | Yes       | Round to 3 digits to the right of the decimal point (e.g., maximum = 99.999)
+fy22Achieved                    |  Decimal, 0 - 100               | Yes       | Round to 3 digits to the right of the decimal point (e.g., maximum = 99.999)
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 **closures**                        |                        |           | Total count of valid facilities marked as "closed."
 fy16Planned                    	|  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
@@ -178,6 +186,8 @@ fy20Planned                    |  Numeric, 0 - 100000               | Yes       
 fy20Achieved                    |  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
 fy21Planned                     |  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
 fy21Achieved                    |  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
+fy22Planned                     |  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
+fy22Achieved                    |  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 **costSavings**                        |                        |           | Total cost savings, by year.
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | Must be total amount for **2016 only** expressed in MILLIONS of dollars.
@@ -192,6 +202,8 @@ fy20Planned                    |  Decimal, 0 - 100               | Yes       | M
 fy20Achieved                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2020 only** expressed in MILLIONS of dollars.
 fy21Planned                     |  Decimal, 0 - 100               | Yes       | Must be total amount for **2021 only** expressed in MILLIONS of dollars.
 fy21Achieved                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2021 only** expressed in MILLIONS of dollars.
+fy22Planned                     |  Decimal, 0 - 100               | Yes       | Must be total amount for **2022 only** expressed in MILLIONS of dollars.
+fy22Achieved                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2022 only** expressed in MILLIONS of dollars.
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 costsOfClosures |  String, 5 - 10000              | Yes      |
 costsOfOptimization |  String, 5 - 10000              | Yes      |
@@ -207,9 +219,11 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 			"fy19Planned": 18,
 			"fy19Achieved": 0,
 			"fy20Planned": 20,
-			"fy20Achieved": 0
+			"fy20Achieved": 0,
 			"fy21Planned": 21,
-			"fy21Achieved": 0
+			"fy21Achieved": 0,
+			"fy22Planned": 22,
+			"fy22Achieved": 0
 		},
 		"virtualization": {
 			"fy19Planned": 110,
@@ -218,23 +232,29 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 			"fy20Achieved": 0,
 			"fy21Planned": 121,
 			"fy21Achieved": 0,
+			"fy22Planned": 122,
+			"fy22Achieved": 0,
 			"methodology": "OPTIONAL TEXT"
 		},
 		"underutilizedServers": {
 			"fy19Planned": 100,
 			"fy19Achieved": 0,
 			"fy20Planned": 25,
-			"fy20Achieved": 0
+			"fy20Achieved": 0,
 			"fy21Planned": 21,
-			"fy21Achieved": 0
+			"fy21Achieved": 0,
+			"fy22Planned": 22,
+			"fy22Achieved": 0
 		},
 		"availability": {
 			"fy19Planned": 99.9,
 			"fy19Achieved": 0,
 			"fy20Planned": 99.99,
-			"fy20Achieved": 0
+			"fy20Achieved": 0,
 			"fy21Planned": 99.99,
-			"fy21Achieved": 0
+			"fy21Achieved": 0,
+			"fy22Planned": 99.99,
+			"fy22Achieved": 0
 		}
 	},
 	"closures": {
@@ -247,9 +267,11 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 		"fy19Planned": 66,
 		"fy19Achieved": 0,
 		"fy20Planned": 77,
-		"fy20Achieved": 0
+		"fy20Achieved": 0,
 		"fy21Planned": 78,
-		"fy21Achieved": 0
+		"fy21Achieved": 0,
+		"fy22Planned": 79,
+		"fy22Achieved": 0
 	},
 	"costSavings": {
 		"fy16Planned": 78,
@@ -264,6 +286,8 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 		"fy20Achieved": 0,
 		"fy21Planned": 21,
 		"fy21Achieved": 0,
+		"fy22Planned": 21,
+		"fy22Achieved": 0,
 		"costsOfClosures": "REQUIRED TEXT",
 		"costsOfOptimization": "REQUIRED TEXT",
 		"historicalCostSavings": "REQUIRED TEXT"
