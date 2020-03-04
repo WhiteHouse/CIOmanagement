@@ -119,9 +119,9 @@ The DCOI Strategic Plan has the following six required elements:
   5. Historical costs, cost savings, and cost avoidances due to data center consolidation and optimization through fiscal year 2015; and
   6. A statement from the agency CIO stating whether the agency has complied with all reporting requirements in this memorandum and the data center requirements of FITARA. If the agency has not complied with all reporting requirements, the agency must provide a statement describing the reasons for not complying.
 
-Parts **1 – 5** above are required to be posted publicly in machine-readable JSON format at **[agencyhomepage].gov/digitalstrategy/datacenteroptimizationstrategicplan.json**. NOTE: In order to assist agencies with compiling these plans, OGP and OMB have developed a tool to convert agencies’ text-based plans to a JSON format for this purpose. This can be found at [https://datacenters.cio.gov/reporting/strategic-plan-generator](https://datacenters.cio.gov/reporting/strategic-plan-generator). **DCOI Strategic Plans are due no later than April 12, 2019.**
+Parts **1 – 5** above are required to be posted publicly in machine-readable JSON format at **[agencyhomepage].gov/digitalstrategy/datacenteroptimizationstrategicplan.json**. NOTE: In order to assist agencies with compiling these plans, OGP and OMB have developed a tool to convert agencies’ text-based plans to a JSON format for this purpose. This can be found at [https://datacenters.cio.gov/reporting/strategic-plan-generator](https://datacenters.cio.gov/reporting/strategic-plan-generator). **DCOI Strategic Plans are due during the spring IDC.**
 
-Part **6** of agencies’ DCOI Strategic Plans may be fulfilled using the template labeled "CIO DCOI Certification Statement Templates" provided below. This statement must be filled out, signed by agencies’ CIOs, and submitted via email to the OFCIO@omb.eop.gov inbox, CC’ing the OMB Agency Liaisons, **also no later than April 12, 2019.**
+Part **6** of agencies’ DCOI Strategic Plans may be fulfilled using the template labeled "CIO DCOI Certification Statement Templates" provided below. This statement must be filled out, signed by agencies’ CIOs, and submitted via email to the OFCIO@omb.eop.gov inbox, CC’ing the OMB Agency Liaisons, **Submitted during the spring IDC.**
 
 The DCOI further requires that agencies’ public FITARA Milestones files are updated at their current **[agencyhomepage].gov/digitalstrategy/FITARAmilestones.json** pages to include a minimum of five (5) milestones per fiscal year to be achieved in accordance with the DCOI. The schema and test files associated with the FITARA Milestones collection (located at the top of this webpage) have been updated to reflect this requirement.
 
@@ -137,18 +137,30 @@ fy19Planned                    |  Numeric, 0 - 1000               | Yes       |
 fy19Achieved                    |  Numeric, 0 - 1000               | Yes       |
 fy20Planned                    |  Numeric, 0 - 1000               | Yes       |
 fy20Achieved                    |  Numeric, 0 - 1000               | Yes       |
+fy21Planned                     |  Numeric, 0 - 1000               | Yes       |
+fy21Achieved			|  Numeric, 0 - 1000		   | Yes       |
+fy22Planned                     |  Numeric, 0 - 1000               | Yes       |
+fy22Achieved			|  Numeric, 0 - 1000		   | Yes       |
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 **virtualization**                        |                        |           | Total count of virtual hosts (servers + mainframes). Agencies may report systems under their cloud investments towards this total count to more accurately reflect the state of their virtualized portfolio.
 fy19Planned                    |  Numeric, 0 - 100000               | Yes       |
 fy19Achieved                    |  Numeric, 0 - 100000               | Yes       |
 fy20Planned                    |  Numeric, 0 - 100000               | Yes       |
 fy20Achieved                    |  Numeric, 0 - 100000               | Yes       |
+fy21Planned                     |  Numeric, 0 - 100000               | Yes       |
+fy21Achieved                    |  Numeric, 0 - 100000               | Yes       |
+fy22Planned                     |  Numeric, 0 - 100000               | Yes       |
+fy22Achieved                    |  Numeric, 0 - 100000               | Yes       |
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 **underutilizedServers**                        |                        |           | Total count of underutilized servers.
 fy19Planned                    |  Numeric, 0 - 100000               | Yes       |
 fy19Achieved                    |  Numeric, 0 - 100000               | Yes       |
 fy20Planned                    |  Numeric, 0 - 100000               | Yes       |
 fy20Achieved                    |  Numeric, 0 - 100000               | Yes       |
+fy21Planned                     |  Numeric, 0 - 100000               | Yes       |
+fy21Achieved                    |  Numeric, 0 - 100000               | Yes       |
+fy22Planned                     |  Numeric, 0 - 100000               | Yes       |
+fy22Achieved                    |  Numeric, 0 - 100000               | Yes       |
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 methodology 			|  String, 0 - 10000              | No      | Optional field to explain the methodology your agency used to arrive at the underutilized servers metric. If the methodology is different between data centers, please explain in the inventory comments field.
 **availability**                        |                        |           | (Total Planned Hours Availability - Total Hours of Total Downtime) / Planned Hours of Availability * 100
@@ -156,6 +168,10 @@ fy19Planned                    |  Decimal, 0 - 100               | Yes       | R
 fy19Achieved                    |  Decimal, 0 - 100               | Yes       | Round to 3 digits to the right of the decimal point (e.g., maximum = 99.999)
 fy20Planned                    |  Decimal, 0 - 100               | Yes       | Round to 3 digits to the right of the decimal point (e.g., maximum = 99.999)
 fy20Achieved                    |  Decimal, 0 - 100               | Yes       | Round to 3 digits to the right of the decimal point (e.g., maximum = 99.999)
+fy21Planned                    |  Decimal, 0 - 100               | Yes       | Round to 3 digits to the right of the decimal point (e.g., maximum = 99.999)
+fy21Achieved                    |  Decimal, 0 - 100               | Yes       | Round to 3 digits to the right of the decimal point (e.g., maximum = 99.999)
+fy22Planned                    |  Decimal, 0 - 100               | Yes       | Round to 3 digits to the right of the decimal point (e.g., maximum = 99.999)
+fy22Achieved                    |  Decimal, 0 - 100               | Yes       | Round to 3 digits to the right of the decimal point (e.g., maximum = 99.999)
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 **closures**                        |                        |           | Total count of valid facilities marked as "closed."
 fy16Planned                    	|  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
@@ -168,6 +184,10 @@ fy19Planned                    |  Numeric, 0 - 100000               | Yes       
 fy19Achieved                    |  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
 fy20Planned                    |  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
 fy20Achieved                    |  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
+fy21Planned                     |  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
+fy21Achieved                    |  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
+fy22Planned                     |  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
+fy22Achieved                    |  Numeric, 0 - 100000               | Yes       | Must be expressed as cumulative values
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 **costSavings**                        |                        |           | Total cost savings, by year.
 fy16Planned                    	|  Decimal, 0 - 100               | Yes       | Must be total amount for **2016 only** expressed in MILLIONS of dollars.
@@ -180,6 +200,10 @@ fy19Planned                    |  Decimal, 0 - 100               | Yes       | M
 fy19Achieved                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2019 only** expressed in MILLIONS of dollars.
 fy20Planned                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2020 only** expressed in MILLIONS of dollars.
 fy20Achieved                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2020 only** expressed in MILLIONS of dollars.
+fy21Planned                     |  Decimal, 0 - 100               | Yes       | Must be total amount for **2021 only** expressed in MILLIONS of dollars.
+fy21Achieved                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2021 only** expressed in MILLIONS of dollars.
+fy22Planned                     |  Decimal, 0 - 100               | Yes       | Must be total amount for **2022 only** expressed in MILLIONS of dollars.
+fy22Achieved                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2022 only** expressed in MILLIONS of dollars.
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 costsOfClosures |  String, 5 - 10000              | Yes      |
 costsOfOptimization |  String, 5 - 10000              | Yes      |
@@ -195,26 +219,42 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 			"fy19Planned": 18,
 			"fy19Achieved": 0,
 			"fy20Planned": 20,
-			"fy20Achieved": 0
+			"fy20Achieved": 0,
+			"fy21Planned": 21,
+			"fy21Achieved": 0,
+			"fy22Planned": 22,
+			"fy22Achieved": 0
 		},
 		"virtualization": {
 			"fy19Planned": 110,
 			"fy19Achieved": 0,
 			"fy20Planned": 120,
 			"fy20Achieved": 0,
+			"fy21Planned": 121,
+			"fy21Achieved": 0,
+			"fy22Planned": 122,
+			"fy22Achieved": 0,
 			"methodology": "OPTIONAL TEXT"
 		},
 		"underutilizedServers": {
 			"fy19Planned": 100,
 			"fy19Achieved": 0,
 			"fy20Planned": 25,
-			"fy20Achieved": 0
+			"fy20Achieved": 0,
+			"fy21Planned": 21,
+			"fy21Achieved": 0,
+			"fy22Planned": 22,
+			"fy22Achieved": 0
 		},
 		"availability": {
 			"fy19Planned": 99.9,
 			"fy19Achieved": 0,
 			"fy20Planned": 99.99,
-			"fy20Achieved": 0
+			"fy20Achieved": 0,
+			"fy21Planned": 99.99,
+			"fy21Achieved": 0,
+			"fy22Planned": 99.99,
+			"fy22Achieved": 0
 		}
 	},
 	"closures": {
@@ -227,7 +267,11 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 		"fy19Planned": 66,
 		"fy19Achieved": 0,
 		"fy20Planned": 77,
-		"fy20Achieved": 0
+		"fy20Achieved": 0,
+		"fy21Planned": 78,
+		"fy21Achieved": 0,
+		"fy22Planned": 79,
+		"fy22Achieved": 0
 	},
 	"costSavings": {
 		"fy16Planned": 78,
@@ -240,6 +284,10 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 		"fy19Achieved": 0,
 		"fy20Planned": 35,
 		"fy20Achieved": 0,
+		"fy21Planned": 21,
+		"fy21Achieved": 0,
+		"fy22Planned": 21,
+		"fy22Achieved": 0,
 		"costsOfClosures": "REQUIRED TEXT",
 		"costsOfOptimization": "REQUIRED TEXT",
 		"historicalCostSavings": "REQUIRED TEXT"
@@ -248,7 +296,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 
 ~~~
 
-*[DCOI Strategic Plan JSON Example File](https://management.cio.gov/schemaexamples/DCOI_StrategicPlan_fy2019examplefile.json)*
+*[DCOI Strategic Plan JSON Example File](https://management.cio.gov/schemaexamples/DCOI_StrategicPlan_fy2021examplefile.json)*
 
 ## Bureau IT Leadership Directory <a id="bureaus"></a>
 Each agency is expected to post a JSON file for their Bureau IT Leadership Directory to the following URL path: [agency.gov]/digitalstrategy/bureaudirectory.json
