@@ -113,7 +113,7 @@ The DCOI Strategic Plan has the following six required elements:
   1. Planned and achieved performance levels for each optimization metric, by year;
   2. Planned and achieved closures, to be expressed as cumulative values by year;
   3. An optional field to provide an explanation for any optimization metrics and closures for which the agency did not meet the planned level in a previous Strategic Plan;
-  4. Planned and achieved cost savings on data centers, to be expressed as annual values by year, including:
+  4. Planned cost savings on data centers, to be expressed as annual values by year, including:
    a. A description of any initial costs for data center consolidation and optimization; and
   b. Life cycle cost savings and other improvements (if applicable);
   5. Historical costs, cost savings, and cost avoidances due to data center consolidation and optimization through fiscal year 2015; and
@@ -199,11 +199,8 @@ fy18Achieved                    	|  Decimal, 0 - 100               | Yes       |
 fy19Planned                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2019 only** expressed in MILLIONS of dollars.
 fy19Achieved                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2019 only** expressed in MILLIONS of dollars.
 fy20Planned                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2020 only** expressed in MILLIONS of dollars.
-fy20Achieved                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2020 only** expressed in MILLIONS of dollars.
 fy21Planned                     |  Decimal, 0 - 100               | Yes       | Must be total amount for **2021 only** expressed in MILLIONS of dollars.
-fy21Achieved                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2021 only** expressed in MILLIONS of dollars.
 fy22Planned                     |  Decimal, 0 - 100               | Yes       | Must be total amount for **2022 only** expressed in MILLIONS of dollars.
-fy22Achieved                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2022 only** expressed in MILLIONS of dollars.
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
 costsOfClosures |  String, 5 - 10000              | Yes      |
 costsOfOptimization |  String, 5 - 10000              | Yes      |
@@ -283,11 +280,8 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 		"fy19Planned": 20,
 		"fy19Achieved": 0,
 		"fy20Planned": 35,
-		"fy20Achieved": 0,
 		"fy21Planned": 21,
-		"fy21Achieved": 0,
 		"fy22Planned": 21,
-		"fy22Achieved": 0,
 		"costsOfClosures": "REQUIRED TEXT",
 		"costsOfOptimization": "REQUIRED TEXT",
 		"historicalCostSavings": "REQUIRED TEXT"
