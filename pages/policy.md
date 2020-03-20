@@ -18,7 +18,7 @@ description: "Add text"
 
 * [Management.cio.gov Schema](/schema) 
 
-* [April 30th Update Guidance and Template](/assets/docs/April FITARA Update Guidance and Template.docx)
+* [Annual Self-Assessment Update Guidance and Template - included in the Integrated Data Collection on MAX](https://community.max.gov/pages/viewpage.action?pageId=658905902)
 
 ## Related Policies
 

@@ -792,7 +792,7 @@
 					"maximum": 40000
 				},
 				"explanationForUnmetPlannedValues": {
-					"id": "https://omb.max.gov/schemas/DCOIStrategicPlans/optimizationMetrics/tieredServerUtAutoMonitoring/explanationForUnmetPlannedValue",
+					"id": "https://omb.max.gov/schemas/DCOIStrategicPlans/costSavings/explanationForUnmetPlannedValue",
 					"name": "explanationForUnmetPlannedValues",
 					"title": "explanationForUnmetPlannedValue schema",
 					"description": "An explanation for an unmet planned value in the given optimization metric.",
