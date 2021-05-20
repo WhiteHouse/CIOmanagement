@@ -199,6 +199,7 @@ fy18Achieved                    	|  Decimal, 0 - 100               | Yes       |
 fy19Planned                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2019 only** expressed in MILLIONS of dollars.
 fy19Achieved                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2019 only** expressed in MILLIONS of dollars.
 fy20Planned                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2020 only** expressed in MILLIONS of dollars.
+fy20Achieved                    |  Decimal, 0 - 100               | Yes       | Must be total amount for **2020 only** expressed in MILLIONS of dollars.
 fy21Planned                     |  Decimal, 0 - 100               | Yes       | Must be total amount for **2021 only** expressed in MILLIONS of dollars.
 fy22Planned                     |  Decimal, 0 - 100               | Yes       | Must be total amount for **2022 only** expressed in MILLIONS of dollars.
 explanationForUnmetPlannedValue |  String, 0 - 10000              | No      |
@@ -280,6 +281,7 @@ historicalCostSavings |  String, 5 - 10000              | Yes      |
 		"fy19Planned": 20,
 		"fy19Achieved": 0,
 		"fy20Planned": 35,
+		"fy20Achieved": 25,
 		"fy21Planned": 21,
 		"fy22Planned": 21,
 		"costsOfClosures": "REQUIRED TEXT",
