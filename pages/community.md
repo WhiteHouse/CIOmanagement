@@ -5,6 +5,9 @@ permalink: /community/
 description: "Add text"
 ---
 
+| WARNING: Management.cio.gov is planned to be deprecated by September 30, 2022. In the future, please refer to OMB Memo M-15-14 for implementation guidance. Archived content of management.cio.gov can be accessed at its [GitHub repository](https://github.com/WhiteHouse/CIOmanagement). If you have any concerns regarding the deprecation of management.cio.gov, please email ofcio@omb.eop.gov before September 30, 2022. |
+| --- |
+
 # FITARA Community Resources and Support
 
 ## Sign up for the FITARA Listserv
